@@ -1,0 +1,150 @@
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202405252000+TO+202405312000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on physics.data-an, stat.*, cs.LG, cs.AI staritng 202405252000 and ending 202405312000</h1>Feed last updated: 2024-05-31T00:00:00-04:00<a href="http://arxiv.org/pdf/2405.18278v1"><h2>NotPlaNET: Removing False Positives from Planet Hunters TESS with
+  Machine Learning</h2></a>Authors:  Valentina Tardugno Poleo, Nora Eisner, David W. Hogg</br>Comments: Under review at The Astronomical Journal</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.LG</br><p>Differentiating between real transit events and false positive signals in
+photometric time series data is a bottleneck in the identification of
+transiting exoplanets, particularly long-period planets. This differentiation
+typically requires visual inspection of a large number of transit-like signals
+to rule out instrumental and astrophysical false positives that mimic planetary
+transit signals. We build a one-dimensional convolutional neural network (CNN)
+to separate eclipsing binaries and other false positives from potential planet
+candidates, reducing the number of light curves that require human vetting. Our
+CNN is trained using the TESS light curves that were identified by Planet
+Hunters citizen scientists as likely containing a transit. We also include the
+background flux and centroid information. The light curves are visually
+inspected and labeled by project scientists and are minimally pre-processed,
+with only normalization and data augmentation taking place before training. The
+median percentage of contaminants flagged across the test sectors is 18% with a
+maximum of 37% and a minimum of 10%. Our model keeps 100% of the planets for 16
+of the 18 test sectors, while incorrectly flagging one planet candidate (0.3%)
+for one sector and two (0.6%) for the remaining sector. Our method shows
+potential to reduce the number of light curves requiring manual vetting by up
+to a third with minimal misclassification of planet candidates.</p></br><a href="http://arxiv.org/pdf/2405.18918v1"><h2>Computing low-thrust transfers in the asteroid belt, a comparison
+  between astrodynamical manipulations and a machine learning approach</h2></a>Authors:  Giacomo Acciarini, Laurent Beauregard, Dario Izzo</br>Comments: Paper presented and published in the proceedings of the 29th ISSFD
+  Conference, Darmstadt, Germany, 2024</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.LG, physics.space-ph</br><p>Low-thrust trajectories play a crucial role in optimizing scientific output
+and cost efficiency in asteroid belt missions. Unlike high-thrust transfers,
+low-thrust trajectories require solving complex optimal control problems. This
+complexity grows exponentially with the number of asteroids visited due to
+orbital mechanics intricacies. In the literature, methods for approximating
+low-thrust transfers without full optimization have been proposed, including
+analytical and machine learning techniques. In this work, we propose new
+analytical approximations and compare their accuracy and performance to machine
+learning methods. While analytical approximations leverage orbit theory to
+estimate trajectory costs, machine learning employs a more black-box approach,
+utilizing neural networks to predict optimal transfers based on various
+attributes. We build a dataset of about 3 million transfers, found by solving
+the time and fuel optimal control problems, for different time of flights,
+which we also release open-source. Comparison between the two methods on this
+database reveals the superiority of machine learning, especially for longer
+transfers. Despite challenges such as multi revolution transfers, both
+approaches maintain accuracy within a few percent in the final mass errors, on
+a database of trajectories involving numerous asteroids. This work contributes
+to the efficient exploration of mission opportunities in the asteroid belt,
+providing insights into the strengths and limitations of different
+approximation strategies.</p></br><a href="http://arxiv.org/pdf/2405.17156v1"><h2>The Scaling Law in Stellar Light Curves</h2></a>Authors:  Jia-Shu Pan, Yuan-Sen Ting, Yang Huang, Jie Yu, Ji-Feng Liu</br>Comments: 11 pages, 5 figures, submitted to ICML 2024 AI4Science workshop</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.SR, cs.LG</br><p>Analyzing time series of fluxes from stars, known as stellar light curves,
+can reveal valuable information about stellar properties. However, most current
+methods rely on extracting summary statistics, and studies using deep learning
+have been limited to supervised approaches. In this research, we investigate
+the scaling law properties that emerge when learning from astronomical time
+series data using self-supervised techniques. By employing the GPT-2
+architecture, we show the learned representation improves as the number of
+parameters increases from $10^4$ to $10^9$, with no signs of performance
+plateauing. We demonstrate that a self-supervised Transformer model achieves
+3-10 times the sample efficiency compared to the state-of-the-art supervised
+learning model when inferring the surface gravity of stars as a downstream
+task. Our research lays the groundwork for analyzing stellar light curves by
+examining them through large-scale auto-regressive generative models.</p></br><a href="http://arxiv.org/pdf/2405.17667v1"><h2>Hunting for Polluted White Dwarfs and Other Treasures with Gaia XP
+  Spectra and Unsupervised Machine Learning</h2></a>Authors:  Malia L. Kao, Keith Hawkins, Laura K. Rogers, Amy Bonsor, Bart H. Dunlap, Jason L. Sanders, M. H. Montgomery, D. E. Winget</br>Comments: 16 pages, 10 figures, submitted to ApJ on May 20, 2024</br>Primary Category: astro-ph.SR</br>All Categories: astro-ph.SR, astro-ph.EP, cs.LG</br><p>White dwarfs (WDs) polluted by exoplanetary material provide the
+unprecedented opportunity to directly observe the interiors of exoplanets.
+However, spectroscopic surveys are often limited by brightness constraints, and
+WDs tend to be very faint, making detections of large populations of polluted
+WDs difficult. In this paper, we aim to increase considerably the number of WDs
+with multiple metals in their atmospheres. Using 96,134 WDs with Gaia DR3 BP/RP
+(XP) spectra, we constructed a 2D map using an unsupervised machine learning
+technique called Uniform Manifold Approximation and Projection (UMAP) to
+organize the WDs into identifiable spectral regions. The polluted WDs are among
+the distinct spectral groups identified in our map. We have shown that this
+selection method could potentially increase the number of known WDs with 5 or
+more metal species in their atmospheres by an order of magnitude. Such systems
+are essential for characterizing exoplanet diversity and geology.</p></br><a href="http://arxiv.org/pdf/2405.18351v1"><h2>Evaluating Bayesian deep learning for radio galaxy classification</h2></a>Authors:  Devina Mohan, Anna M. M. Scaife</br>Comments: Accepted to the 40th Conference on Uncertainty in Artificial
+  Intelligence (UAI 2024)</br>Primary Category: cs.LG</br>All Categories: cs.LG, astro-ph.IM</br><p>The radio astronomy community is rapidly adopting deep learning techniques to
+deal with the huge data volumes expected from the next generation of radio
+observatories. Bayesian neural networks (BNNs) provide a principled way to
+model uncertainty in the predictions made by such deep learning models and will
+play an important role in extracting well-calibrated uncertainty estimates on
+their outputs. In this work, we evaluate the performance of different BNNs
+against the following criteria: predictive performance, uncertainty calibration
+and distribution-shift detection for the radio galaxy classification problem.</p></br><a href="http://arxiv.org/pdf/2405.18095v1"><h2>Is machine learning good or bad for the natural sciences?</h2></a>Authors:  David W. Hogg, Soledad Villar</br>Comments: A Position Paper accepted for publication in the 2024 International
+  Conference on Machine Learning</br>Primary Category: stat.ML</br>All Categories: stat.ML, astro-ph.IM, cs.LG, physics.data-an</br><p>Machine learning (ML) methods are having a huge impact across all of the
+sciences. However, ML has a strong ontology - in which only the data exist -
+and a strong epistemology - in which a model is considered good if it performs
+well on held-out training data. These philosophies are in strong conflict with
+both standard practices and key philosophies in the natural sciences. Here, we
+identify some locations for ML in the natural sciences at which the ontology
+and epistemology are valuable. For example, when an expressive machine learning
+model is used in a causal inference to represent the effects of confounders,
+such as foregrounds, backgrounds, or instrument calibration parameters, the
+model capacity and loose philosophy of ML can make the results more
+trustworthy. We also show that there are contexts in which the introduction of
+ML introduces strong, unwanted statistical biases. For one, when ML models are
+used to emulate physical (or first-principles) simulations, they introduce
+strong confirmation biases. For another, when expressive regressions are used
+to label datasets, those labels cannot be used in downstream joint or ensemble
+analyses without taking on uncontrolled biases. The question in the title is
+being asked of all of the natural sciences; that is, we are calling on the
+scientific communities to take a step back and consider the role and value of
+ML in their fields; the (partial) answers we give here come from the particular
+perspective of physics.</p></br><a href="http://arxiv.org/pdf/2405.19384v1"><h2>NeuralODEs for VLEO simulations: Introducing thermoNET for Thermosphere
+  Modeling</h2></a>Authors:  Dario Izzo, Giacomo Acciarini, Francesco Biscani</br>Comments: Paper presented and published in the 29th ISSFD Conference,
+  Darmstadt, Germany</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, cs.LG, physics.space-ph</br><p>We introduce a novel neural architecture termed thermoNET, designed to
+represent thermospheric density in satellite orbital propagation using a
+reduced amount of differentiable computations. Due to the appearance of a
+neural network on the right-hand side of the equations of motion, the resulting
+satellite dynamics is governed by a NeuralODE, a neural Ordinary Differential
+Equation, characterized by its fully differentiable nature, allowing the
+derivation of variational equations (hence of the state transition matrix) and
+facilitating its use in connection to advanced numerical techniques such as
+Taylor-based numerical propagation and differential algebraic techniques.
+Efficient training of the network parameters occurs through two distinct
+approaches. In the first approach, the network undergoes training independently
+of spacecraft dynamics, engaging in a pure regression task against ground truth
+models, including JB-08 and NRLMSISE-00. In the second paradigm, network
+parameters are learned based on observed dynamics, adapting through ODE
+sensitivities. In both cases, the outcome is a flexible, compact model of the
+thermosphere density greatly enhancing numerical propagation efficiency while
+maintaining accuracy in the orbital predictions.</p></br><a href="http://arxiv.org/pdf/2405.17566v1"><h2>A deep-learning algorithm to disentangle self-interacting dark matter
+  and AGN feedback models</h2></a>Authors:  David Harvey</br>Comments: Accepted Nature Astronomy</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, cs.LG, physics.comp-ph</br><p>Different models of dark matter can alter the distribution of mass in galaxy
+clusters in a variety of ways. However, so can uncertain astrophysical feedback
+mechanisms. Here we present a Machine Learning method that ''learns'' how the
+impact of dark matter self-interactions differs from that of astrophysical
+feedback in order to break this degeneracy and make inferences on dark matter.
+We train a Convolutional Neural Network on images of galaxy clusters from
+hydro-dynamic simulations. In the idealised case our algorithm is 80% accurate
+at identifying if a galaxy cluster harbours collisionless dark matter, dark
+matter with ${\sigma}_{\rm DM}/m = 0.1$cm$^2/$g or with ${\sigma}_{DM}/m =
+1$cm$^2$/g. Whilst we find adding X-ray emissivity maps does not improve the
+performance in differentiating collisional dark matter, it does improve the
+ability to disentangle different models of astrophysical feedback. We include
+noise to resemble data expected from Euclid and Chandra and find our model has
+a statistical error of < 0.01cm$^2$/g and that our algorithm is insensitive to
+shape measurement bias and photometric redshift errors. This method represents
+a new way to analyse data from upcoming telescopes that is an order of
+magnitude more precise and many orders faster, enabling us to explore the dark
+matter parameter space like never before.</p></br><a href="http://arxiv.org/pdf/2405.19178v1"><h2>Model-independent cosmological inference post DESI DR1 BAO measurements</h2></a>Authors:  Purba Mukherjee, Anjan Ananda Sen</br>Comments: 5 pages, 5 sets of figures. Comments are welcome</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, cs.LG, gr-qc</br><p>In this work, we implement Gaussian process regression to reconstruct the
+expansion history of the universe in a model-agnostic manner, using the
+Pantheon-Plus SN-Ia compilation in combination with two different BAO
+measurements (SDSS-IV and DESI DR1). In both the reconstructions, the
+$\Lambda$CDM model is always included in the 95\% confidence intervals. We find
+evidence that the DESI LRG data at $z_{\text{eff}} = 0.51$ is not an outlier
+within our model-independent framework. We study the $\mathcal{O}m$-diagnostics
+and the evolution of the total equation of state (EoS) of our universe, which
+hint towards the possibility of a quintessence-like dark energy scenario with a
+very slowly varying EoS, and a phantom-crossing in higher $z$. The entire
+exercise is later complemented by considering two more SN-Ia compilations -
+DES-5YR and Union3 - in combination with DESI BAO. Reconstruction with the DESI
+BAO + DES-5YR SN data sets predicts that the $\Lambda$CDM model lies outside
+the 3$\sigma$ confidence levels, whereas with DESI BAO + Union3 data, the
+$\Lambda$CDM model is always included within 1$\sigma$. We also report
+constraints on $H_0 r_d$ from our model-agnostic analysis, independent of the
+pre-recombination physics. Our results point towards an $\approx$ 2$\sigma$
+discrepancy between the DESI + Pantheon-Plus and DESI + DES-5YR data sets,
+which calls for further investigation.</p></br>
