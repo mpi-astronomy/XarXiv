@@ -33,9 +33,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: execute py script # run main.py
-        env:
-          SOME_SECRET: ${{ secrets.SOME_SECRET }}
+      - name: execute py script # run crosslist.py
         run: python crosslist.py > index.html
 
       - name: commit files
