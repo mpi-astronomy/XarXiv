@@ -1,51 +1,25 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202407272000+TO+202408022000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.AI, stat.*, cs.LG, physics.data-an staritng 202407272000 and ending 202408022000</h1>Feed last updated: 2024-08-02T00:00:00-04:00<a href="http://arxiv.org/pdf/2407.19481v1"><h2>What can we learn about Reionization astrophysical parameters using
-  Gaussian Process Regression?</h2></a>Authors:  Purba Mukherjee, Antara Dey, Supratik Pal</br>Comments: No comment found</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, astro-ph.IM, cs.LG</br><p>Reionization is one of the least understood processes in the evolution
-history of the Universe, mostly because of the numerous astrophysical processes
-occurring simultaneously about which we do not have a very clear idea so far.
-In this article, we use the Gaussian Process Regression (GPR) method to learn
-the reionization history and infer the astrophysical parameters. We reconstruct
-the UV luminosity density function using the HFF and early JWST data. From the
-reconstructed history of reionization, the global differential brightness
-temperature fluctuation during this epoch has been computed. We perform MCMC
-analysis of the global 21-cm signal using the instrumental specifications of
-SARAS, in combination with Lyman-$\alpha$ ionization fraction data, Planck
-optical depth measurements and UV luminosity data. Our analysis reveals that
-GPR can help infer the astrophysical parameters in a model-agnostic way than
-conventional methods. Additionally, we analyze the 21-cm power spectrum using
-the reconstructed history of reionization and demonstrate how the future 21-cm
-mission SKA, in combination with Planck and Lyman-$\alpha$ forest data,
-improves the bounds on the reionization astrophysical parameters by doing a
-joint MCMC analysis for the astrophysical parameters plus 6 cosmological
-parameters for $\Lambda$CDM model. The results make the GPR-based
-reconstruction technique a robust learning process and the inferences on the
-astrophysical parameters obtained therefrom are quite reliable that can be used
-for future analysis.</p></br><a href="http://arxiv.org/pdf/2407.20432v1"><h2>Neural Surrogate HMC: Accelerated Hamiltonian Monte Carlo with a Neural
-  Network Surrogate Likelihood</h2></a>Authors:  Linnea M Wolniewicz, Peter Sadowski, Claudio Corti</br>Comments: 5 pages, 3 figures, accepted at SPAICE Conference 2024</br>Primary Category: cs.LG</br>All Categories: cs.LG, astro-ph.HE, I.2.1</br><p>Bayesian Inference with Markov Chain Monte Carlo requires efficient
-computation of the likelihood function. In some scientific applications, the
-likelihood must be computed by numerically solving a partial differential
-equation, which can be prohibitively expensive. We demonstrate that some such
-problems can be made tractable by amortizing the computation with a surrogate
-likelihood function implemented by a neural network. We show that this has two
-additional benefits: reducing noise in the likelihood evaluations and providing
-fast gradient calculations. In experiments, the approach is applied to a model
-of heliospheric transport of galactic cosmic rays, where it enables efficient
-sampling from the posterior of latent parameters in the Parker equation.</p></br><a href="http://arxiv.org/pdf/2407.21008v1"><h2>Bayesian technique to combine independently-trained Machine-Learning
-  models applied to direct dark matter detection</h2></a>Authors:  David Cerdeno, Martin de los Rios, Andres D. Perez</br>Comments: 25 pages, 7 figures, 2 tables</br>Primary Category: hep-ph</br>All Categories: hep-ph, astro-ph.CO, physics.data-an</br><p>We carry out a Bayesian analysis of dark matter (DM) direct detection data to
-determine particle model parameters using the Truncated Marginal Neural Ratio
-Estimation (TMNRE) machine learning technique. TMNRE avoids an explicit
-calculation of the likelihood, which instead is estimated from simulated data,
-unlike in traditional Markov Chain Monte Carlo (MCMC) algorithms. This
-considerably speeds up, by several orders of magnitude, the computation of the
-posterior distributions, which allows to perform the Bayesian analysis of an
-otherwise computationally prohibitive number of benchmark points. In this
-article we demonstrate that, in the TMNRE framework, it is possible to include,
-combine, and remove different datasets in a modular fashion, which is fast and
-simple as there is no need to re-train the machine learning algorithm or to
-define a combined likelihood. In order to assess the performance of this
-method, we consider the case of WIMP DM with spin-dependent and independent
-interactions with protons and neutrons in a xenon experiment. After validating
-our results with MCMC, we employ the TMNRE procedure to determine the regions
-where the DM parameters can be reconstructed. Finally, we present CADDENA, a
-Python package that implements the modular Bayesian analysis of direct
-detection experiments described in this work.</p></br>
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202407302000+TO+202408052000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.AI, physics.data-an, stat.*, cs.LG staritng 202407302000 and ending 202408052000</h1>Feed last updated: 2024-08-05T00:00:00-04:00<a href="http://arxiv.org/pdf/2408.00084v1"><h2>Approximating Rayleigh Scattering in Exoplanetary Atmospheres using
+  Physics-informed Neural Networks (PINNs)</h2></a>Authors:  David Dahlbüdding, Karan Molaverdikhani, Barbara Ercolano, Tommaso Grassi</br>Comments: No comment found</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.LG, cs.NE</br><p>This research introduces an innovative application of physics-informed neural
+networks (PINNs) to tackle the intricate challenges of radiative transfer (RT)
+modeling in exoplanetary atmospheres, with a special focus on efficiently
+handling scattering phenomena. Traditional RT models often simplify scattering
+as absorption, leading to inaccuracies. Our approach utilizes PINNs, noted for
+their ability to incorporate the governing differential equations of RT
+directly into their loss function, thus offering a more precise yet potentially
+fast modeling technique. The core of our method involves the development of a
+parameterized PINN tailored for a modified RT equation, enhancing its
+adaptability to various atmospheric scenarios. We focus on RT in transiting
+exoplanet atmospheres using a simplified 1D isothermal model with
+pressure-dependent coefficients for absorption and Rayleigh scattering. In
+scenarios of pure absorption, the PINN demonstrates its effectiveness in
+predicting transmission spectra for diverse absorption profiles. For Rayleigh
+scattering, the network successfully computes the RT equation, addressing both
+direct and diffuse stellar light components. While our preliminary results with
+simplified models are promising, indicating the potential of PINNs in improving
+RT calculations, we acknowledge the errors stemming from our approximations as
+well as the challenges in applying this technique to more complex atmospheric
+conditions. Specifically, extending our approach to atmospheres with intricate
+temperature-pressure profiles and varying scattering properties, such as those
+introduced by clouds and hazes, remains a significant area for future
+development.</p></br>
