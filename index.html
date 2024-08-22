@@ -1,25 +1,32 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202408152000+TO+202408212000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.AI, stat.*, cs.LG, physics.data-an staritng 202408152000 and ending 202408212000</h1>Feed last updated: 2024-08-21T00:00:00-04:00<a href="http://arxiv.org/pdf/2408.08873v1"><h2>Accelerating Giant Impact Simulations with Machine Learning</h2></a>Authors:  Caleb Lammers, Miles Cranmer, Sam Hadden, Shirley Ho, Norman Murray, Daniel Tamayo</br>Comments: 15 pages, 7 figures, 1 table. Easy-to-use API available at
-  https://github.com/dtamayo/spock</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.LG</br><p>Constraining planet formation models based on the observed exoplanet
-population requires generating large samples of synthetic planetary systems,
-which can be computationally prohibitive. A significant bottleneck is
-simulating the giant impact phase, during which planetary embryos evolve
-gravitationally and combine to form planets, which may themselves experience
-later collisions. To accelerate giant impact simulations, we present a machine
-learning (ML) approach to predicting collisional outcomes in multiplanet
-systems. Trained on more than 500,000 $N$-body simulations of three-planet
-systems, we develop an ML model that can accurately predict which two planets
-will experience a collision, along with the state of the post-collision
-planets, from a short integration of the system's initial conditions. Our model
-greatly improves on non-ML baselines that rely on metrics from dynamics theory,
-which struggle to accurately predict which pair of planets will experience a
-collision. By combining with a model for predicting long-term stability, we
-create an efficient ML-based giant impact emulator, which can predict the
-outcomes of giant impact simulations with a speedup of up to four orders of
-magnitude. We expect our model to enable analyses that would not otherwise be
-computationally feasible. As such, we release our full training code, along
-with an easy-to-use API for our collision outcome model and giant impact
-emulator.</p></br><a href="http://arxiv.org/pdf/2408.10871v1"><h2>Radio U-Net: a convolutional neural network to detect diffuse radio
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202408162000+TO+202408222000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on physics.data-an, cs.LG, stat.*, cs.AI staritng 202408162000 and ending 202408222000</h1>Feed last updated: 2024-08-22T00:00:00-04:00<a href="http://arxiv.org/pdf/2408.11768v1"><h2>Embedding Ordinality to Binary Loss Function for Improving Solar Flare
+  Forecasting</h2></a>Authors:  Chetraj Pandey, Anli Ji, Jinsu Hong, Rafal A. Angryk, Berkay Aydin</br>Comments: 10 Pages, 8 Figures. This manuscript is accepted to be published at
+  DSAA 2024 conference. arXiv admin note: substantial text overlap with
+  arXiv:2406.11054</br>Primary Category: cs.CV</br>All Categories: cs.CV, astro-ph.IM, astro-ph.SR, cs.LG</br><p>In this paper, we propose a novel loss function aimed at optimizing the
+binary flare prediction problem by embedding the intrinsic ordinal flare
+characteristics into the binary cross-entropy (BCE) loss function. This
+modification is intended to provide the model with better guidance based on the
+ordinal characteristics of the data and improve the overall performance of the
+models. For our experiments, we employ a ResNet34-based model with transfer
+learning to predict $\geq$M-class flares by utilizing the shape-based features
+of magnetograms of active region (AR) patches spanning from $-$90$^{\circ}$ to
+$+$90$^{\circ}$ of solar longitude as our input data. We use a composite skill
+score (CSS) as our evaluation metric, which is calculated as the geometric mean
+of the True Skill Score (TSS) and the Heidke Skill Score (HSS) to rank and
+compare our models' performance. The primary contributions of this work are as
+follows: (i) We introduce a novel approach to encode ordinality into a binary
+loss function showing an application to solar flare prediction, (ii) We enhance
+solar flare forecasting by enabling flare predictions for each AR across the
+entire solar disk, without any longitudinal restrictions, and evaluate and
+compare performance. (iii) Our candidate model, optimized with the proposed
+loss function, shows an improvement of $\sim$7%, $\sim$4%, and $\sim$3% for AR
+patches within $\pm$30$^\circ$, $\pm$60$^\circ$, and $\pm$90$^\circ$ of solar
+longitude, respectively in terms of CSS, when compared with standard BCE.
+Additionally, we demonstrate the ability to issue flare forecasts for ARs in
+near-limb regions (regions between $\pm$60$^{\circ}$ to $\pm$90$^{\circ}$) with
+a CSS=0.34 (TSS=0.50 and HSS=0.23), expanding the scope of AR-based models for
+solar flare prediction. This advances the reliability of solar flare forecasts,
+leading to more effective prediction capabilities.</p></br><a href="http://arxiv.org/pdf/2408.10871v1"><h2>Radio U-Net: a convolutional neural network to detect diffuse radio
   sources in galaxy clusters and beyond</h2></a>Authors:  Chiara Stuardi, Claudio Gheller, Franco Vazza, Andrea Botteon</br>Comments: Accepted by MNRAS, 16 pages, 9 figures, 2 tables</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.CO, cs.AI, cs.CV, cs.LG</br><p>The forthcoming generation of radio telescope arrays promises significant
 advancements in sensitivity and resolution, enabling the identification and
 characterization of many new faint and diffuse radio sources. Conventional
@@ -42,36 +49,4 @@ without diffuse radio emission. Our results establish the applicability of
 Radio U-Net to extensive radio survey datasets, probing its efficiency on
 cutting-edge high-performance computing systems. This approach represents an
 advancement in optimizing the exploitation of forthcoming large radio surveys
-for scientific exploration.</p></br><a href="http://arxiv.org/pdf/2408.08676v1"><h2>Fine-tuning LLMs for Autonomous Spacecraft Control: A Case Study Using
-  Kerbal Space Program</h2></a>Authors:  Alejandro Carrasco, Victor Rodriguez-Fernandez, Richard Linares</br>Comments: ESA SPAICE Conference 2024. arXiv admin note: text overlap with
-  arXiv:2404.00413</br>Primary Category: cs.AI</br>All Categories: cs.AI, astro-ph.IM</br><p>Recent trends are emerging in the use of Large Language Models (LLMs) as
-autonomous agents that take actions based on the content of the user text
-prompt. This study explores the use of fine-tuned Large Language Models (LLMs)
-for autonomous spacecraft control, using the Kerbal Space Program Differential
-Games suite (KSPDG) as a testing environment. Traditional Reinforcement
-Learning (RL) approaches face limitations in this domain due to insufficient
-simulation capabilities and data. By leveraging LLMs, specifically fine-tuning
-models like GPT-3.5 and LLaMA, we demonstrate how these models can effectively
-control spacecraft using language-based inputs and outputs. Our approach
-integrates real-time mission telemetry into textual prompts processed by the
-LLM, which then generate control actions via an agent. The results open a
-discussion about the potential of LLMs for space operations beyond their
-nominal use for text-related tasks. Future work aims to expand this methodology
-to other space control tasks and evaluate the performance of different LLM
-families. The code is available at this URL:
-\texttt{https://github.com/ARCLab-MIT/kspdg}.</p></br><a href="http://arxiv.org/pdf/2408.08474v1"><h2>Enhancing Events in Neutrino Telescopes through Deep Learning-Driven
-  Super-Resolution</h2></a>Authors:  Felix J. Yu, Nicholas Kamp, Carlos A. Argüelles</br>Comments: 5+1 pages, 4+1 figures</br>Primary Category: hep-ex</br>All Categories: hep-ex, astro-ph.IM, cs.LG</br><p>Recent discoveries by neutrino telescopes, such as the IceCube Neutrino
-Observatory, relied extensively on machine learning (ML) tools to infer
-physical quantities from the raw photon hits detected. Neutrino telescope
-reconstruction algorithms are limited by the sparse sampling of photons by the
-optical modules due to the relatively large spacing ($10-100\,{\rm m})$ between
-them. In this letter, we propose a novel technique that learns photon transport
-through the detector medium through the use of deep learning-driven
-super-resolution of data events. These ``improved'' events can then be
-reconstructed using traditional or ML techniques, resulting in improved
-resolution. Our strategy arranges additional ``virtual'' optical modules within
-an existing detector geometry and trains a convolutional neural network to
-predict the hits on these virtual optical modules. We show that this technique
-improves the angular reconstruction of muons in a generic ice-based neutrino
-telescope. Our results readily extend to water-based neutrino telescopes and
-other event morphologies.</p></br>
+for scientific exploration.</p></br>
