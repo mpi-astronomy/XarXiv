@@ -1,26 +1,106 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202408292000+TO+202409042000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, stat.*, physics.data-an, cs.AI staritng 202408292000 and ending 202409042000</h1>Feed last updated: 2024-09-04T00:00:00-04:00<a href="http://arxiv.org/pdf/2408.17298v1"><h2>Accelerating the discovery of steady-states of planetary interior
-  dynamics with machine learning</h2></a>Authors:  Siddhant Agarwal, Nicola Tosi, Christian Hüttig, David S. Greenberg, Ali Can Bekar</br>Comments: No comment found</br>Primary Category: physics.flu-dyn</br>All Categories: physics.flu-dyn, astro-ph.EP, cs.AI, cs.LG</br><p>Simulating mantle convection often requires reaching a computationally
-expensive steady-state, crucial for deriving scaling laws for thermal and
-dynamical flow properties and benchmarking numerical solutions. The strong
-temperature dependence of the rheology of mantle rocks causes viscosity
-variations of several orders of magnitude, leading to a slow-evolving stagnant
-lid where heat conduction dominates, overlying a rapidly-evolving and strongly
-convecting region. Time-stepping methods, while effective for fluids with
-constant viscosity, are hindered by the Courant criterion, which restricts the
-time step based on the system's maximum velocity and grid size. Consequently,
-achieving steady-state requires a large number of time steps due to the
-disparate time scales governing the stagnant and convecting regions.
-  We present a concept for accelerating mantle convection simulations using
-machine learning. We generate a dataset of 128 two-dimensional simulations with
-mixed basal and internal heating, and pressure- and temperature-dependent
-viscosity. We train a feedforward neural network on 97 simulations to predict
-steady-state temperature profiles. These can then be used to initialize
-numerical time stepping methods for different simulation parameters. Compared
-to typical initializations, the number of time steps required to reach
-steady-state is reduced by a median factor of 3.75. The benefit of this method
-lies in requiring very few simulations to train on, providing a solution with
-no prediction error as we initialize a numerical method, and posing minimal
-computational overhead at inference time. We demonstrate the effectiveness of
-our approach and discuss the potential implications for accelerated simulations
-for advancing mantle convection research.</p></br>
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202408302000+TO+202409052000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.AI, cs.LG, physics.data-an, stat.* staritng 202408302000 and ending 202409052000</h1>Feed last updated: 2024-09-05T00:00:00-04:00<a href="http://arxiv.org/pdf/2409.02154v1"><h2>COmoving Computer Acceleration (COCA): $N$-body simulations in an
+  emulated frame of reference</h2></a>Authors:  Deaglan J. Bartlett, Marco Chiarenza, Ludvig Doeser, Florent Leclercq</br>Comments: 23 pages, 13 figures</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.CO, cs.LG, stat.ML</br><p>$N$-body simulations are computationally expensive, so machine-learning
+(ML)-based emulation techniques have emerged as a way to increase their speed.
+Although fast, surrogate models have limited trustworthiness due to potentially
+substantial emulation errors that current approaches cannot correct for. To
+alleviate this problem, we introduce COmoving Computer Acceleration (COCA), a
+hybrid framework interfacing ML with an $N$-body simulator. The correct
+physical equations of motion are solved in an emulated frame of reference, so
+that any emulation error is corrected by design. This approach corresponds to
+solving for the perturbation of particle trajectories around the machine-learnt
+solution, which is computationally cheaper than obtaining the full solution,
+yet is guaranteed to converge to the truth as one increases the number of force
+evaluations. Although applicable to any ML algorithm and $N$-body simulator,
+this approach is assessed in the particular case of particle-mesh cosmological
+simulations in a frame of reference predicted by a convolutional neural
+network, where the time dependence is encoded as an additional input parameter
+to the network. COCA efficiently reduces emulation errors in particle
+trajectories, requiring far fewer force evaluations than running the
+corresponding simulation without ML. We obtain accurate final density and
+velocity fields for a reduced computational budget. We demonstrate that this
+method shows robustness when applied to examples outside the range of the
+training data. When compared to the direct emulation of the Lagrangian
+displacement field using the same training resources, COCA's ability to correct
+emulation errors results in more accurate predictions. COCA makes $N$-body
+simulations cheaper by skipping unnecessary force evaluations, while still
+solving the correct equations of motion and correcting for emulation errors
+made by ML.</p></br><a href="http://arxiv.org/pdf/2409.01825v1"><h2>AstroMAE: Redshift Prediction Using a Masked Autoencoder with a Novel
+  Fine-Tuning Architecture</h2></a>Authors:  Amirreza Dolatpour Fathkouhi, Geoffrey Charles Fox</br>Comments: This paper has been accepted to 2024 IEEE 20th International
+  Conference on e-Science</br>Primary Category: cs.CV</br>All Categories: cs.CV, astro-ph.GA, astro-ph.IM, cs.CE, cs.LG</br><p>Redshift prediction is a fundamental task in astronomy, essential for
+understanding the expansion of the universe and determining the distances of
+astronomical objects. Accurate redshift prediction plays a crucial role in
+advancing our knowledge of the cosmos. Machine learning (ML) methods, renowned
+for their precision and speed, offer promising solutions for this complex task.
+However, traditional ML algorithms heavily depend on labeled data and
+task-specific feature extraction. To overcome these limitations, we introduce
+AstroMAE, an innovative approach that pretrains a vision transformer encoder
+using a masked autoencoder method on Sloan Digital Sky Survey (SDSS) images.
+This technique enables the encoder to capture the global patterns within the
+data without relying on labels. To the best of our knowledge, AstroMAE
+represents the first application of a masked autoencoder to astronomical data.
+By ignoring labels during the pretraining phase, the encoder gathers a general
+understanding of the data. The pretrained encoder is subsequently fine-tuned
+within a specialized architecture tailored for redshift prediction. We evaluate
+our model against various vision transformer architectures and CNN-based
+models, demonstrating the superior performance of AstroMAEs pretrained model
+and fine-tuning architecture.</p></br><a href="http://arxiv.org/pdf/2409.02150v1"><h2>Hazardous Asteroids Classification</h2></a>Authors:  Thai Duy Quy, Alvin Buana, Josh Lee, Rakha Asyrofi</br>Comments: 6 pages</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, cs.LG</br><p>Hazardous asteroid has been one of the concerns for humankind as fallen
+asteroid on earth could cost a huge impact on the society.Monitoring these
+objects could help predict future impact events, but such efforts are hindered
+by the large numbers of objects that pass in the Earth's vicinity. The aim of
+this project is to use machine learning and deep learning to accurately
+classify hazardous asteroids. A total of ten methods which consist of five
+machine learning algorithms and five deep learning models are trained and
+evaluated to find the suitable model that solves the issue. We experiment on
+two datasets, one from Kaggle and one we extracted from a web service called
+NeoWS which is a RESTful web service from NASA that provides information about
+near earth asteroids, it updates every day. In overall, the model is tested on
+two datasets with different features to find the most accurate model to perform
+the classification.</p></br><a href="http://arxiv.org/pdf/2409.01614v1"><h2>On-chain Validation of Tracking Data Messages (TDM) Using Distributed
+  Deep Learning on a Proof of Stake (PoS) Blockchain</h2></a>Authors:  Yasir Latif, Anirban Chowdhury, Samya Bagchi</br>Comments: Accepted for AMOS 2024</br>Primary Category: cs.CR</br>All Categories: cs.CR, astro-ph.EP, cs.LG</br><p>Trustless tracking of Resident Space Objects (RSOs) is crucial for Space
+Situational Awareness (SSA), especially during adverse situations. The
+importance of transparent SSA cannot be overstated, as it is vital for ensuring
+space safety and security. In an era where RSO location information can be
+easily manipulated, the risk of RSOs being used as weapons is a growing
+concern. The Tracking Data Message (TDM) is a standardized format for
+broadcasting RSO observations. However, the varying quality of observations
+from diverse sensors poses challenges to SSA reliability. While many countries
+operate space assets, relatively few have SSA capabilities, making it crucial
+to ensure the accuracy and reliability of the data. Current practices assume
+complete trust in the transmitting party, leaving SSA capabilities vulnerable
+to adversarial actions such as spoofing TDMs. This work introduces a trustless
+mechanism for TDM validation and verification using deep learning over
+blockchain. By leveraging the trustless nature of blockchain, our approach
+eliminates the need for a central authority, establishing consensus-based
+truth. We propose a state-of-the-art, transformer-based orbit propagator that
+outperforms traditional methods like SGP4, enabling cross-validation of
+multiple observations for a single RSO. This deep learning-based transformer
+model can be distributed over a blockchain, allowing interested parties to host
+a node that contains a part of the distributed deep learning model. Our system
+comprises decentralised observers and validators within a Proof of Stake (PoS)
+blockchain. Observers contribute TDM data along with a stake to ensure honesty,
+while validators run the propagation and validation algorithms. The system
+rewards observers for contributing verified TDMs and penalizes those submitting
+unverifiable data.</p></br><a href="http://arxiv.org/pdf/2409.01407v1"><h2>$\mathtt{emuflow}$: Normalising Flows for Joint Cosmological Analysis</h2></a>Authors:  Arrykrishna Mootoovaloo, Carlos García-García, David Alonso, Jaime Ruiz-Zapatero</br>Comments: 13 pages, 5 figures</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, cs.LG</br><p>Given the growth in the variety and precision of astronomical datasets of
+interest for cosmology, the best cosmological constraints are invariably
+obtained by combining data from different experiments. At the likelihood level,
+one complication in doing so is the need to marginalise over large-dimensional
+parameter models describing the data of each experiment. These include both the
+relatively small number of cosmological parameters of interest and a large
+number of "nuisance" parameters. Sampling over the joint parameter space for
+multiple experiments can thus become a very computationally expensive
+operation. This can be significantly simplified if one could sample directly
+from the marginal cosmological posterior distribution of preceding experiments,
+depending only on the common set of cosmological parameters. In this paper, we
+show that this can be achieved by emulating marginal posterior distributions
+via normalising flows. The resulting trained normalising flow models can be
+used to efficiently combine cosmological constraints from independent datasets
+without increasing the dimensionality of the parameter space under study. We
+show that the method is able to accurately describe the posterior distribution
+of real cosmological datasets, as well as the joint distribution of different
+datasets, even when significant tension exists between experiments. The
+resulting joint constraints can be obtained in a fraction of the time it would
+take to combine the same datasets at the level of their likelihoods. We
+construct normalising flow models for a set of public cosmological datasets of
+general interests and make them available, together with the software used to
+train them, and to exploit them in cosmological parameter inference.</p></br>
