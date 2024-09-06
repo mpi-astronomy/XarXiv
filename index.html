@@ -1,5 +1,28 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202408302000+TO+202409052000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.AI, cs.LG, physics.data-an, stat.* staritng 202408302000 and ending 202409052000</h1>Feed last updated: 2024-09-05T00:00:00-04:00<a href="http://arxiv.org/pdf/2409.02154v1"><h2>COmoving Computer Acceleration (COCA): $N$-body simulations in an
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202408312000+TO+202409062000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on stat.*, cs.LG, physics.data-an, cs.AI staritng 202408312000 and ending 202409062000</h1>Feed last updated: 2024-09-06T00:00:00-04:00<a href="http://arxiv.org/pdf/2409.03466v1"><h2>Panopticon: a novel deep learning model to detect single transit events
+  with no prior data filtering in PLATO light curves</h2></a>Authors:  H. G. Vivien, M. Deleuil, N. Jannsen, J. De Ridder, D. Seynaeve, M. -A. Carpine, Y. Zerah</br>Comments: Submitted to A&A</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.LG</br><p>To prepare for the analyses of the future PLATO light curves, we develop a
+deep learning model, Panopticon, to detect transits in high precision
+photometric light curves. Since PLATO's main objective is the detection of
+temperate Earth-size planets around solar-type stars, the code is designed to
+detect individual transit events. The filtering step, required by conventional
+detection methods, can affect the transit, which could be an issue for long and
+shallow transits. To protect transit shape and depth, the code is also designed
+to work on unfiltered light curves. We trained the model on a set of simulated
+PLATO light curves in which we injected, at pixel level, either planetary,
+eclipsing binary, or background eclipsing binary signals. We also include a
+variety of noises in our data, such as granulation, stellar spots or cosmic
+rays. The approach is able to recover 90% of our test population, including
+more than 25% of the Earth-analogs, even in the unfiltered light curves. The
+model also recovers the transits irrespective of the orbital period, and is
+able to retrieve transits on a unique event basis. These figures are obtained
+when accepting a false alarm rate of 1%. When keeping the false alarm rate low
+(<0.01%), it is still able to recover more than 85% of the transit signals. Any
+transit deeper than 180ppm is essentially guaranteed to be recovered. This
+method is able to recover transits on a unique event basis, and does so with a
+low false alarm rate. Thanks to light curves being one-dimensional, model
+training is fast, on the order of a few hours per model. This speed in training
+and inference, coupled to the recovery effectiveness and precision of the model
+make it an ideal tool to complement, or be used ahead of, classical approaches.</p></br><a href="http://arxiv.org/pdf/2409.02154v1"><h2>COmoving Computer Acceleration (COCA): $N$-body simulations in an
   emulated frame of reference</h2></a>Authors:  Deaglan J. Bartlett, Marco Chiarenza, Ludvig Doeser, Florent Leclercq</br>Comments: 23 pages, 13 figures</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.CO, cs.LG, stat.ML</br><p>$N$-body simulations are computationally expensive, so machine-learning
 (ML)-based emulation techniques have emerged as a way to increase their speed.
 Although fast, surrogate models have limited trustworthiness due to potentially
@@ -44,7 +67,30 @@ understanding of the data. The pretrained encoder is subsequently fine-tuned
 within a specialized architecture tailored for redshift prediction. We evaluate
 our model against various vision transformer architectures and CNN-based
 models, demonstrating the superior performance of AstroMAEs pretrained model
-and fine-tuning architecture.</p></br><a href="http://arxiv.org/pdf/2409.02150v1"><h2>Hazardous Asteroids Classification</h2></a>Authors:  Thai Duy Quy, Alvin Buana, Josh Lee, Rakha Asyrofi</br>Comments: 6 pages</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, cs.LG</br><p>Hazardous asteroid has been one of the concerns for humankind as fallen
+and fine-tuning architecture.</p></br><a href="http://arxiv.org/pdf/2409.02980v1"><h2>How DREAMS are made: Emulating Satellite Galaxy and Subhalo Populations
+  with Diffusion Models and Point Clouds</h2></a>Authors:  Tri Nguyen, Francisco Villaescusa-Navarro, Siddharth Mishra-Sharma, Carolina Cuesta-Lazaro, Paul Torrey, Arya Farahi, Alex M. Garcia, Jonah C. Rose, Stephanie O'Neil, Mark Vogelsberger, Xuejian Shen, Cian Roche, Daniel Anglés-Alcázar, Nitya Kallivayalil, Julian B. Muñoz, Francis-Yan Cyr-Racine, Sandip Roy, Lina Necib, Kassidy E. Kollmann</br>Comments: Submitted to ApJ; 30 + 6 pages; 11 + 4 figures; Comments welcomed</br>Primary Category: astro-ph.GA</br>All Categories: astro-ph.GA, astro-ph.CO, cs.LG</br><p>The connection between galaxies and their host dark matter (DM) halos is
+critical to our understanding of cosmology, galaxy formation, and DM physics.
+To maximize the return of upcoming cosmological surveys, we need an accurate
+way to model this complex relationship. Many techniques have been developed to
+model this connection, from Halo Occupation Distribution (HOD) to empirical and
+semi-analytic models to hydrodynamic. Hydrodynamic simulations can incorporate
+more detailed astrophysical processes but are computationally expensive; HODs,
+on the other hand, are computationally cheap but have limited accuracy. In this
+work, we present NeHOD, a generative framework based on variational diffusion
+model and Transformer, for painting galaxies/subhalos on top of DM with an
+accuracy of hydrodynamic simulations but at a computational cost similar to
+HOD. By modeling galaxies/subhalos as point clouds, instead of binning or
+voxelization, we can resolve small spatial scales down to the resolution of the
+simulations. For each halo, NeHOD predicts the positions, velocities, masses,
+and concentrations of its central and satellite galaxies. We train NeHOD on the
+TNG-Warm DM suite of the DREAMS project, which consists of 1024 high-resolution
+zoom-in hydrodynamic simulations of Milky Way-mass halos with varying warm DM
+mass and astrophysical parameters. We show that our model captures the complex
+relationships between subhalo properties as a function of the simulation
+parameters, including the mass functions, stellar-halo mass relations,
+concentration-mass relations, and spatial clustering. Our method can be used
+for a large variety of downstream applications, from galaxy clustering to
+strong lensing studies.</p></br><a href="http://arxiv.org/pdf/2409.02150v1"><h2>Hazardous Asteroids Classification</h2></a>Authors:  Thai Duy Quy, Alvin Buana, Josh Lee, Rakha Asyrofi</br>Comments: 6 pages</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, cs.LG</br><p>Hazardous asteroid has been one of the concerns for humankind as fallen
 asteroid on earth could cost a huge impact on the society.Monitoring these
 objects could help predict future impact events, but such efforts are hindered
 by the large numbers of objects that pass in the Earth's vicinity. The aim of
