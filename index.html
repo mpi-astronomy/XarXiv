@@ -1,24 +1,5 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202409102000+TO+202409162000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on physics.data-an, cs.LG, stat.*, cs.AI staritng 202409102000 and ending 202409162000</h1>Feed last updated: 2024-09-16T00:00:00-04:00<a href="http://arxiv.org/pdf/2409.07523v1"><h2>Using Neural Network Models to Estimate Stellar Ages from Lithium
-  Equivalent Widths: An EAGLES Expansion</h2></a>Authors:  George Weaver, Robin D. Jeffries, Richard J. Jackson</br>Comments: Accepted for publication in Monthly Notices of the Royal Astronomical
-  Society. Code available at https://github.com/robdjeff/eagles. Electronic
-  tables are available from the author</br>Primary Category: astro-ph.SR</br>All Categories: astro-ph.SR, astro-ph.GA, astro-ph.IM, cs.LG</br><p>We present an Artificial Neural Network (ANN) model of photospheric lithium
-depletion in cool stars (3000 < Teff / K < 6500), producing estimates and
-probability distributions of age from Li I 6708A equivalent width (LiEW) and
-effective temperature data inputs. The model is trained on the same sample of
-6200 stars from 52 open clusters, observed in the Gaia-ESO spectroscopic
-survey, and used to calibrate the previously published analytical EAGLES model,
-with ages 2 - 6000 Myr and -0.3 < [Fe/H] < 0.2. The additional flexibility of
-the ANN provides some improvements, including better modelling of the "lithium
-dip" at ages < 50 Myr and Teff ~ 3500K, and of the intrinsic dispersion in LiEW
-at all ages. Poor age discrimination is still an issue at ages > 1 Gyr,
-confirming that additional modelling flexibility is not sufficient to fully
-represent the LiEW - age - Teff relationship, and suggesting the involvement of
-further astrophysical parameters. Expansion to include such parameters -
-rotation, accretion, and surface gravity - is discussed, and the use of an ANN
-means these can be more easily included in future iterations, alongside more
-flexible functional forms for the LiEW dispersion. Our methods and ANN model
-are provided in an updated version 2.0 of the EAGLES software.</p></br><a href="http://arxiv.org/pdf/2409.07957v1"><h2>Rapid Parameter Estimation for Extreme Mass Ratio Inspirals Using
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202409112000+TO+202409172000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.LG, cs.AI, stat.*, physics.data-an staritng 202409112000 and ending 202409172000</h1>Feed last updated: 2024-09-17T00:00:00-04:00<a href="http://arxiv.org/pdf/2409.07957v1"><h2>Rapid Parameter Estimation for Extreme Mass Ratio Inspirals Using
   Machine Learning</h2></a>Authors:  Bo Liang, Hong Guo, Tianyu Zhao, He wang, Herik Evangelinelis, Yuxiang Xu, Chang liu, Manjia Liang, Xiaotong Wei, Yong Yuan, Peng Xu, Minghui Du, Wei-Liang Qian, Ziren Luo</br>Comments: No comment found</br>Primary Category: physics.comp-ph</br>All Categories: physics.comp-ph, astro-ph.IM, cs.AI</br><p>Extreme-mass-ratio inspiral (EMRI) signals pose significant challenges in
 gravitational wave (GW) astronomy owing to their low-frequency nature and
 highly complex waveforms, which occupy a high-dimensional parameter space with
@@ -40,4 +21,37 @@ parameters, associated with EMRI signals. Furthermore, to our knowledge, this
 is the first instance of applying machine learning, specifically the Continuous
 Normalizing Flows (CNFs), to EMRI signal analysis. Our findings highlight the
 promising potential of machine learning in EMRI waveform analysis, offering new
-perspectives for the advancement of space-based GW detection and GW astronomy.</p></br>
+perspectives for the advancement of space-based GW detection and GW astronomy.</p></br><a href="http://arxiv.org/pdf/2409.09563v1"><h2>Astrometric Binary Classification Via Artificial Neural Networks</h2></a>Authors:  Joe Smith</br>Comments: Accepted for publication in Astrophysical Journal (ApJ)</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG, physics.data-an</br><p>With nearly two billion stars observed and their corresponding astrometric
+parameters evaluated in the recent Gaia mission, the number of astrometric
+binary candidates have risen significantly. Due to the surplus of astrometric
+data, the current computational methods employed to inspect these astrometric
+binary candidates are both computationally expensive and cannot be executed in
+a reasonable time frame. In light of this, a machine learning (ML) technique to
+automatically classify whether a set of stars belong to an astrometric binary
+pair via an artificial neural network (ANN) is proposed. Using data from Gaia
+DR3, the ANN was trained and tested on 1.5 million highly probable true and
+visual binaries, considering the proper motions, parallaxes, and angular and
+physical separations as features. The ANN achieves high classification scores,
+with an accuracy of 99.3%, a precision rate of 0.988, a recall rate of 0.991,
+and an AUC of 0.999, indicating that the utilized ML technique is a highly
+effective method for classifying astrometric binaries. Thus, the proposed ANN
+is a promising alternative to the existing methods for the classification of
+astrometric binaries.</p></br><a href="http://arxiv.org/pdf/2409.10381v1"><h2>J-UBIK: The JAX-accelerated Universal Bayesian Imaging Kit</h2></a>Authors:  Vincent Eberle, Matteo Guardiani, Margret Westerkamp, Philipp Frank, Julian Rüstig, Julia Stadler, Torsten A. Enßlin</br>Comments: No comment found</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, physics.comp-ph, physics.data-an, physics.ins-det</br><p>Many advances in astronomy and astrophysics originate from accurate images of
+the sky emission across multiple wavelengths. This often requires
+reconstructing spatially and spectrally correlated signals detected from
+multiple instruments. To facilitate the high-fidelity imaging of these signals,
+we introduce the universal Bayesian imaging kit (UBIK). Specifically, we
+present J-UBIK, a flexible and modular implementation leveraging the
+JAX-accelerated NIFTy.re software as its backend. J-UBIK streamlines the
+implementation of the key Bayesian inference components, providing for all the
+necessary steps of Bayesian imaging pipelines. First, it provides adaptable
+prior models for different sky realizations. Second, it includes likelihood
+models tailored to specific instruments. So far, the package includes three
+instruments: Chandra and eROSITA for X-ray observations, and the James Webb
+Space Telescope (JWST) for the near- and mid-infrared. The aim is to expand
+this set in the future. Third, these models can be integrated with various
+inference and optimization schemes, such as maximum a posteriori estimation and
+variational inference. Explicit demos show how to integrate the individual
+modules into a full analysis pipeline. Overall, J-UBIK enables efficient
+generation of high-fidelity images via Bayesian pipelines that can be tailored
+to specific research objectives.</p></br>
