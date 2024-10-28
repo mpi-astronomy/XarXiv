@@ -1,83 +1,30 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202410192000+TO+202410252000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.AI, stat.*, cs.LG, physics.data-an staritng 202410192000 and ending 202410252000</h1>Feed last updated: 2024-10-25T00:00:00-04:00<a href="http://arxiv.org/pdf/2410.16081v1"><h2>Deep Multimodal Representation Learning for Stellar Spectra</h2></a>Authors:  Tobias Buck, Christian Schwarz</br>Comments: accepted to the Machine Learning and the Physical Sciences Workshop,
-  NeurIPS 2024</br>Primary Category: astro-ph.SR</br>All Categories: astro-ph.SR, astro-ph.GA, astro-ph.IM, physics.comp-ph, physics.data-an</br><p>Recently, contrastive learning (CL), a technique most prominently used in
-natural language and computer vision, has been used to train informative
-representation spaces for galaxy spectra and images in a self-supervised
-manner. Following this idea, we implement CL for stars in the Milky Way, for
-which recent astronomical surveys have produced a huge amount of heterogeneous
-data. Specifically, we investigate Gaia XP coefficients and RVS spectra. Thus,
-the methods presented in this work lay the foundation for aggregating the
-knowledge implicitly contained in the multimodal data to enable downstream
-tasks like cross-modal generation or fused stellar parameter estimation. We
-find that CL results in a highly structured representation space that exhibits
-explicit physical meaning. Evaluating Using this representation space to
-perform cross-modal generation and stellar label regression results in
-excellent performance with high-quality generated samples as well as accurate
-and precise label predictions.</p></br><a href="http://arxiv.org/pdf/2410.16347v1"><h2>Domain-Adaptive Neural Posterior Estimation for Strong Gravitational
-  Lens Analysis</h2></a>Authors:  Paxson Swierc, Marcos Tamargo-Arizmendi, Aleksandra Ćiprijanović, Brian D. Nord</br>Comments: 20 pages, 2 figures, 2 tables</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.CO, astro-ph.GA, cs.AI, cs.CV, cs.LG</br><p>Modeling strong gravitational lenses is prohibitively expensive for modern
-and next-generation cosmic survey data. Neural posterior estimation (NPE), a
-simulation-based inference (SBI) approach, has been studied as an avenue for
-efficient analysis of strong lensing data. However, NPE has not been
-demonstrated to perform well on out-of-domain target data -- e.g., when trained
-on simulated data and then applied to real, observational data. In this work,
-we perform the first study of the efficacy of NPE in combination with
-unsupervised domain adaptation (UDA). The source domain is noiseless, and the
-target domain has noise mimicking modern cosmology surveys. We find that
-combining UDA and NPE improves the accuracy of the inference by 1-2 orders of
-magnitude and significantly improves the posterior coverage over an NPE model
-without UDA. We anticipate that this combination of approaches will help enable
-future applications of NPE models to real observational data.</p></br><a href="http://arxiv.org/pdf/2410.16116v1"><h2>Multimodal Flare Forecasting with Deep Learning</h2></a>Authors:  Grégoire Francisco, Sabrina Guastavino, Teresa Barata, João Fernandes, Dario Del Moro</br>Comments: No comment found</br>Primary Category: astro-ph.SR</br>All Categories: astro-ph.SR, astro-ph.IM, cs.AI, cs.CV</br><p>Solar flare forecasting mainly relies on photospheric magnetograms and
-associated physical features to predict forthcoming flares. However, it is
-believed that flare initiation mechanisms often originate in the chromosphere
-and the lower corona. In this study, we employ deep learning as a purely
-data-driven approach to compare the predictive capabilities of chromospheric
-and coronal UV and EUV emissions across different wavelengths with those of
-photospheric line-of-sight magnetograms. Our findings indicate that individual
-EUV wavelengths can provide discriminatory power comparable or better to that
-of line-of-sight magnetograms. Moreover, we identify simple multimodal neural
-network architectures that consistently outperform single-input models, showing
-complementarity between the flare precursors that can be extracted from the
-distinct layers of the solar atmosphere. To mitigate potential biases from
-known misattributions in Active Region flare catalogs, our models are trained
-and evaluated using full-disk images and a comprehensive flare event catalog at
-the full-disk level. We introduce a deep-learning architecture suited for
-extracting temporal features from full-disk videos.</p></br><a href="http://arxiv.org/pdf/2410.15808v1"><h2>Mean-Field Simulation-Based Inference for Cosmological Initial
-  Conditions</h2></a>Authors:  Oleg Savchenko, Florian List, Guillermo Franco Abellán, Noemi Anau Montel, Christoph Weniger</br>Comments: Accepted for the NeurIPS 2024 workshop Machine Learning and the
-  Physical Sciences; 5 + 4 pages, 3 figures</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, astro-ph.IM, cs.LG</br><p>Reconstructing cosmological initial conditions (ICs) from late-time
-observations is a difficult task, which relies on the use of computationally
-expensive simulators alongside sophisticated statistical methods to navigate
-multi-million dimensional parameter spaces. We present a simple method for
-Bayesian field reconstruction based on modeling the posterior distribution of
-the initial matter density field to be diagonal Gaussian in Fourier space, with
-its covariance and the mean estimator being the trainable parts of the
-algorithm. Training and sampling are extremely fast (training: $\sim 1 \,
-\mathrm{h}$ on a GPU, sampling: $\lesssim 3 \, \mathrm{s}$ for 1000 samples at
-resolution $128^3$), and our method supports industry-standard
-(non-differentiable) $N$-body simulators. We verify the fidelity of the
-obtained IC samples in terms of summary statistics.</p></br><a href="http://arxiv.org/pdf/2410.17135v1"><h2>Reinforcement Learning for Data-Driven Workflows in Radio
-  Interferometry. I. Principal Demonstration in Calibration</h2></a>Authors:  Brian M. Kirk, Urvashi Rau, Ramyaa Ramyaa</br>Comments: 22 pages, 13 figures; accepted for publication in The Astronomical
-  Journal October 18, 2024</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG</br><p>Radio interferometry is an observational technique used to study
-astrophysical phenomena. Data gathered by an interferometer requires
-substantial processing before astronomers can extract the scientific
-information from it. Data processing consists of a sequence of calibration and
-analysis procedures where choices must be made about the sequence of procedures
-as well as the specific configuration of the procedure itself. These choices
-are typically based on a combination of measurable data characteristics, an
-understanding of the instrument itself, an appreciation of the trade-offs
-between compute cost and accuracy, and a learned understanding of what is
-considered "best practice". A metric of absolute correctness is not always
-available and validity is often subject to human judgment. The underlying
-principles and software configurations to discern a reasonable workflow for a
-given dataset is the subject of training workshops for students and scientists.
-Our goal is to use objective metrics that quantify best practice, and
-numerically map out the decision space with respect to our metrics. With these
-objective metrics we demonstrate an automated, data-driven, decision system
-that is capable of sequencing the optimal action(s) for processing
-interferometric data. This paper introduces a simplified description of the
-principles behind interferometry and the procedures required for data
-processing. We highlight the issues with current automation approaches and
-propose our ideas for solving these bottlenecks. A prototype is demonstrated
-and the results are discussed.</p></br><a href="http://arxiv.org/pdf/2410.17906v1"><h2>Leveraging Deep Learning for Time Series Extrinsic Regression in
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202410222000+TO+202410282000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on stat.*, cs.AI, cs.LG, physics.data-an staritng 202410222000 and ending 202410282000</h1>Feed last updated: 2024-10-28T00:00:00-04:00<a href="http://arxiv.org/pdf/2410.19390v1"><h2>CLAP. I. Resolving miscalibration for deep learning-based galaxy
+  photometric redshift estimation</h2></a>Authors:  Qiufan Lin, Hengxin Ruan, Dominique Fouchez, Shupei Chen, Rui Li, Paulo Montero-Camacho, Nicola R. Napolitano, Yuan-Sen Ting, Wei Zhang</br>Comments: 22 + 6 pages, 9 + 5 figures</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.CO, cs.AI</br><p>Obtaining well-calibrated photometric redshift probability densities for
+galaxies without a spectroscopic measurement remains a challenge. Deep learning
+discriminative models, typically fed with multi-band galaxy images, can produce
+outputs that mimic probability densities and achieve state-of-the-art accuracy.
+However, such models may be affected by miscalibration that would result in
+discrepancies between the model outputs and the actual distributions of true
+redshifts. Our work develops a novel method called the Contrastive Learning and
+Adaptive KNN for Photometric Redshift (CLAP) that resolves this issue. It
+leverages supervised contrastive learning (SCL) and k-nearest neighbours (KNN)
+to construct and calibrate raw probability density estimates, and implements a
+refitting procedure to resume end-to-end discriminative models ready to produce
+final estimates for large-scale imaging data. The harmonic mean is adopted to
+combine an ensemble of estimates from multiple realisations for improving
+accuracy. Our experiments demonstrate that CLAP takes advantage of both deep
+learning and KNN, outperforming benchmark methods on the calibration of
+probability density estimates and retaining high accuracy and computational
+efficiency. With reference to CLAP, we point out that miscalibration is
+particularly sensitive to the method-induced excessive correlations among data
+instances in addition to the unaccounted-for epistemic uncertainties. Reducing
+the uncertainties may not guarantee the removal of miscalibration due to the
+presence of such excessive correlations, yet this is a problem for conventional
+deep learning methods rather than CLAP. These discussions underscore the
+robustness of CLAP for obtaining photometric redshift probability densities
+required by astrophysical and cosmological applications. This is the first
+paper in our series on CLAP.</p></br><a href="http://arxiv.org/pdf/2410.17906v1"><h2>Leveraging Deep Learning for Time Series Extrinsic Regression in
   predicting photometric metallicity of Fundamental-mode RR Lyrae Stars</h2></a>Authors:  Lorenzo Monti, Tatiana Muraveva, Gisella Clementini, Alessia Garofalo</br>Comments: Sensors 2024, 24(16), 5203; (23 pages)</br>Primary Category: cs.AI</br>All Categories: cs.AI, astro-ph.IM</br><p>Astronomy is entering an unprecedented era of Big Data science, driven by
 missions like the ESA's Gaia telescope, which aims to map the Milky Way in
 three dimensions. Gaia's vast dataset presents a monumental challenge for
@@ -98,19 +45,27 @@ metallicity values. Our work underscores the importance of deep learning in
 astronomical research, particularly with large datasets from missions like
 Gaia. By harnessing the power of deep learning methods, we can provide
 precision in analyzing vast datasets, contributing to more precise and
-comprehensive insights into complex astronomical phenomena.</p></br><a href="http://arxiv.org/pdf/2410.17142v1"><h2>Coniferest: a complete active anomaly detection framework</h2></a>Authors:  M. V. Kornilov, V. S. Korolev, K. L. Malanchev, A. D. Lavrukhina, E. Russeil, T. A. Semenikhin, E. Gangler, E. E. O. Ishida, M. V. Pruzhinskaya, A. A. Volnova, S. Sreejith</br>Comments: 13 pages, 1 figure</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.HC, cs.LG</br><p>We present coniferest, an open source generic purpose active anomaly
-detection framework written in Python. The package design and implemented
-algorithms are described. Currently, static outlier detection analysis is
-supported via the Isolation forest algorithm. Moreover, Active Anomaly
-Discovery (AAD) and Pineforest algorithms are available to tackle active
-anomaly detection problems. The algorithms and package performance are
-evaluated on a series of synthetic datasets. We also describe a few success
-cases which resulted from applying the package to real astronomical data in
-active anomaly detection tasks within the SNAD project.</p></br><a href="http://arxiv.org/pdf/2410.18875v1"><h2>Exploring the Universe with SNAD: Anomaly Detection in Astronomy</h2></a>Authors:  Alina A. Volnova, Patrick D. Aleo, Anastasia Lavrukhina, Etienne Russeil, Timofey Semenikhin, Emmanuel Gangler, Emille E. O. Ishida, Matwey V. Kornilov, Vladimir Korolev, Konstantin Malanchev, Maria V. Pruzhinskaya, Sreevarsha Sreejith</br>Comments: 14 pages, 4 figures</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.HC, cs.LG</br><p>SNAD is an international project with a primary focus on detecting
+comprehensive insights into complex astronomical phenomena.</p></br><a href="http://arxiv.org/pdf/2410.18875v1"><h2>Exploring the Universe with SNAD: Anomaly Detection in Astronomy</h2></a>Authors:  Alina A. Volnova, Patrick D. Aleo, Anastasia Lavrukhina, Etienne Russeil, Timofey Semenikhin, Emmanuel Gangler, Emille E. O. Ishida, Matwey V. Kornilov, Vladimir Korolev, Konstantin Malanchev, Maria V. Pruzhinskaya, Sreevarsha Sreejith</br>Comments: 14 pages, 4 figures</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.HC, cs.LG</br><p>SNAD is an international project with a primary focus on detecting
 astronomical anomalies within large-scale surveys, using active learning and
 other machine learning algorithms. The work carried out by SNAD not only
 contributes to the discovery and classification of various astronomical
 phenomena but also enhances our understanding and implementation of machine
 learning techniques within the field of astrophysics. This paper provides a
 review of the SNAD project and summarizes the advancements and achievements
-made by the team over several years.</p></br>
+made by the team over several years.</p></br><a href="http://arxiv.org/pdf/2410.19420v1"><h2>Doppler correlation-driven vetoes for the Frequency Hough analysis in
+  continuous gravitational-wave searches</h2></a>Authors:  Matteo Di Giovanni, Paola Leaci, Pia Astone, Stefano Dal Pra, Sabrina D'Atonio, Luca D'Onofrio, Sergio Frasca, Federico Muciaccia, Cristiano Palomba, Lorenzo Pierini, Francesco Safai Tehrani</br>Comments: 13 pages, 9 figures, 5 tables</br>Primary Category: gr-qc</br>All Categories: gr-qc, astro-ph.IM, physics.data-an</br><p>We present an improved method for vetoing candidates of continuous
+gravitational-wave sources during all-sky searches utilizing the Frequency
+Hough pipeline. This approach leverages linear correlations between source
+parameters induced by the Earth Doppler effect, which can be effectively
+identified through the Hough Transform. Candidates that do not align with these
+patterns are considered spurious and can thus be vetoed, enhancing the depth
+and statistical significance of follow-up analyses. Additionally, we provide a
+comprehensive explanation of the method calibration, which intrinsically linked
+to the total duration of the observing run. On average, the procedure
+successfully vetoes $56\%$ of candidates. To assess the method performance, we
+conducted a Monte-Carlo simulation injecting fake continuous-wave signals into
+data from the third observing run of the LIGO detectors. This analysis allowed
+us to infer strain amplitude upper limits at a $90\%$ confidence level. We
+found that the optimal sensitivity is $h_0^{90\%} = 3.62^{+0.23}_{-0.22}\times
+10^{-26}$ in the [128, 200] Hz band, which is within the most sensible
+frequency band of the LIGO detectors.</p></br>
