@@ -1,31 +1,27 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202410292000+TO+202411042000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, physics.data-an, cs.AI, stat.* staritng 202410292000 and ending 202411042000</h1>Feed last updated: 2024-11-03T00:00:00-05:00<a href="http://arxiv.org/pdf/2410.23178v1"><h2>Uncertainty quantification for fast reconstruction methods using
-  augmented equivariant bootstrap: Application to radio interferometry</h2></a>Authors:  Mostafa Cherif, Tobías I. Liaudat, Jonathan Kern, Christophe Kervazo, Jérôme Bobin</br>Comments: 13 pages, 7 figures. Accepted at the Machine Learning and the
-  Physical Sciences Workshop, NeurIPS 2024</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG</br><p>The advent of next-generation radio interferometers like the Square Kilometer
-Array promises to revolutionise our radio astronomy observational capabilities.
-The unprecedented volume of data these devices generate requires fast and
-accurate image reconstruction algorithms to solve the ill-posed radio
-interferometric imaging problem. Most state-of-the-art reconstruction methods
-lack trustworthy and scalable uncertainty quantification, which is critical for
-the rigorous scientific interpretation of radio observations. We propose an
-unsupervised technique based on a conformalized version of a radio-augmented
-equivariant bootstrapping method, which allows us to quantify uncertainties for
-fast reconstruction methods. Noticeably, we rely on reconstructions from
-ultra-fast unrolled algorithms. The proposed method brings more reliable
-uncertainty estimations to our problem than existing alternatives.</p></br><a href="http://arxiv.org/pdf/2410.23346v1"><h2>ASURA-FDPS-ML: Star-by-star Galaxy Simulations Accelerated by Surrogate
-  Modeling for Supernova Feedback</h2></a>Authors:  Keiya Hirashima, Kana Moriwaki, Michiko S. Fujii, Yutaka Hirai, Takayuki R. Saitoh, Junnichiro Makino, Ulrich P. Steinwandel, Shirley Ho</br>Comments: 20 pages, 14 figures, 3 tables, submitted to ApJ</br>Primary Category: astro-ph.GA</br>All Categories: astro-ph.GA, cs.AI, cs.LG</br><p>We introduce new high-resolution galaxy simulations accelerated by a
-surrogate model that reduces the computation cost by approximately 75 percent.
-Massive stars with a Zero Age Main Sequence mass of about 8 solar masses and
-above explode as core-collapse supernovae (CCSNe), which play a critical role
-in galaxy formation. The energy released by CCSNe is essential for regulating
-star formation and driving feedback processes in the interstellar medium (ISM).
-However, the short integration timesteps required for SNe feedback present
-significant bottlenecks in star-by-star galaxy simulations that aim to capture
-individual stellar dynamics and the inhomogeneous shell expansion of SNe within
-the turbulent ISM. Our new framework combines direct numerical simulations and
-surrogate modeling, including machine learning and Gibbs sampling. The star
-formation history and the time evolution of outflow rates in the galaxy match
-those obtained from resolved direct numerical simulations. Our new approach
-achieves high-resolution fidelity while reducing computational costs,
-effectively bridging the physical scale gap and enabling multi-scale
-simulations.</p></br>
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202410302000+TO+202411052000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.LG, stat.*, cs.AI, physics.data-an staritng 202410302000 and ending 202411052000</h1>Feed last updated: 2024-11-04T00:00:00-05:00<a href="http://arxiv.org/pdf/2411.00991v1"><h2>Re-thinking Richardson-Lucy without Iteration Cutoffs: Physically
+  Motivated Bayesian Deconvolution</h2></a>Authors:  Zachary H. Hendrix, Peter T. Brown, Tim Flanagan, Douglas P. Shepherd, Ayush Saurabh, Steve Pressé</br>Comments: 5 figures</br>Primary Category: cs.CV</br>All Categories: cs.CV, astro-ph.IM, physics.bio-ph, physics.data-an, physics.optics</br><p>Richardson-Lucy deconvolution is widely used to restore images from
+degradation caused by the broadening effects of a point spread function and
+corruption by photon shot noise, in order to recover an underlying object. In
+practice, this is achieved by iteratively maximizing a Poisson emission
+likelihood. However, the RL algorithm is known to prefer sparse solutions and
+overfit noise, leading to high-frequency artifacts. The structure of these
+artifacts is sensitive to the number of RL iterations, and this parameter is
+typically hand-tuned to achieve reasonable perceptual quality of the inferred
+object. Overfitting can be mitigated by introducing tunable regularizers or
+other ad hoc iteration cutoffs in the optimization as otherwise incorporating
+fully realistic models can introduce computational bottlenecks. To resolve
+these problems, we present Bayesian deconvolution, a rigorous deconvolution
+framework that combines a physically accurate image formation model avoiding
+the challenges inherent to the RL approach. Our approach achieves deconvolution
+while satisfying the following desiderata:
+  I deconvolution is performed in the spatial domain (as opposed to the
+frequency domain) where all known noise sources are accurately modeled and
+integrated in the spirit of providing full probability distributions over the
+density of the putative object recovered;
+  II the probability distribution is estimated without making assumptions on
+the sparsity or continuity of the underlying object;
+  III unsupervised inference is performed and converges to a stable solution
+with no user-dependent parameter tuning or iteration cutoff;
+  IV deconvolution produces strictly positive solutions; and
+  V implementation is amenable to fast, parallelizable computation.</p></br>
