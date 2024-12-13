@@ -1,5 +1,29 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202412062000+TO+202412122000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, stat.*, cs.AI, physics.data-an staritng 202412062000 and ending 202412122000</h1>Feed last updated: 2024-12-11T00:00:00-05:00<a href="http://arxiv.org/pdf/2412.06946v1"><h2>NRSurNN3dq4: A Deep Learning Powered Numerical Relativity Surrogate for
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202412072000+TO+202412132000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.LG, cs.AI, physics.data-an, stat.* staritng 202412072000 and ending 202412132000</h1>Feed last updated: 2024-12-12T00:00:00-05:00<a href="http://arxiv.org/pdf/2412.09002v1"><h2>Stellar parameter prediction and spectral simulation using machine
+  learning</h2></a>Authors:  Vojtěch Cvrček, Martino Romaniello, Radim Šára, Wolfram Freudling, Pascal Ballester</br>Comments: Accepted for publication in Astronomy & Astrophysics</br>Primary Category: astro-ph.SR</br>All Categories: astro-ph.SR, astro-ph.EP, astro-ph.IM, cs.LG</br><p>We applied machine learning to the entire data history of ESO's High Accuracy
+Radial Velocity Planet Searcher (HARPS) instrument. Our primary goal was to
+recover the physical properties of the observed objects, with a secondary
+emphasis on simulating spectra. We systematically investigated the impact of
+various factors on the accuracy and fidelity of the results, including the use
+of simulated data, the effect of varying amounts of real training data, network
+architectures, and learning paradigms. Our approach integrates supervised and
+unsupervised learning techniques within autoencoder frameworks. Our methodology
+leverages an existing simulation model that utilizes a library of existing
+stellar spectra in which the emerging flux is computed from first principles
+rooted in physics and a HARPS instrument model to generate simulated spectra
+comparable to observational data. We trained standard and variational
+autoencoders on HARPS data to predict spectral parameters and generate spectra.
+Our models excel at predicting spectral parameters and compressing real
+spectra, and they achieved a mean prediction error of approximately 50 K for
+effective temperatures, making them relevant for most astrophysical
+applications. Furthermore, the models predict metallicity ([M/H]) and surface
+gravity (log g) with an accuracy of approximately 0.03 dex and 0.04 dex,
+respectively, underscoring their broad applicability in astrophysical research.
+The models' computational efficiency, with processing times of 779.6 ms on CPU
+and 3.97 ms on GPU, makes them valuable for high-throughput applications like
+massive spectroscopic surveys and large archival studies. By achieving accuracy
+comparable to classical methods with significantly reduced computation time,
+our methodology enhances the scope and efficiency of spectroscopic analysis.</p></br><a href="http://arxiv.org/pdf/2412.06946v1"><h2>NRSurNN3dq4: A Deep Learning Powered Numerical Relativity Surrogate for
   Binary Black Hole Waveforms</h2></a>Authors:  Osvaldo Gramaxo Freitas, Anastasios Theodoropoulos, Nino Villanueva, Tiago Fernandes, Solange Nunes, José A. Font, Antonio Onofre, Alejandro Torres-Forné, José D. Martin-Guerrero</br>Comments: No comment found</br>Primary Category: gr-qc</br>All Categories: gr-qc, astro-ph.HE, astro-ph.IM, cs.LG</br><p>Gravitational wave approximants are widely used tools in gravitational-wave
 astronomy. They allow for dense coverage of the parameter space of binary black
 hole (BBH) mergers for purposes of parameter inference, or, more generally,
@@ -111,4 +135,20 @@ simulations.</p></br><a href="http://arxiv.org/pdf/2412.08254v1"><h2>PADÉ FILTE
 introduction to the ideas and practice of the Pad\'e Filtering method for
 disentangling a signal from the noise. Technically it comes to the tracking of
 the zeros and singularities of random z-Transforms by noisy Pad\'e
-Approximants.</p></br>
+Approximants.</p></br><a href="http://arxiv.org/pdf/2412.08672v1"><h2>Efficient Gravitational Wave Parameter Estimation via Knowledge
+  Distillation: A ResNet1D-IAF Approach</h2></a>Authors:  Xihua Zhu, Yiqian Yang, Fan Zhang</br>Comments: 7 pages, 4 figures, 2 tables</br>Primary Category: gr-qc</br>All Categories: gr-qc, astro-ph.IM, cs.LG, physics.data-an, I.2.6</br><p>With the rapid development of gravitational wave astronomy, the increasing
+number of detected events necessitates efficient methods for parameter
+estimation and model updates. This study presents a novel approach using
+knowledge distillation techniques to enhance computational efficiency in
+gravitational wave analysis. We develop a framework combining ResNet1D and
+Inverse Autoregressive Flow (IAF) architectures, where knowledge from a complex
+teacher model is transferred to a lighter student model. Our experimental
+results show that the student model achieves a validation loss of 3.70 with
+optimal configuration (40,100,0.75), compared to the teacher model's 4.09,
+while reducing the number of parameters by 43\%. The Jensen-Shannon divergence
+between teacher and student models remains below 0.0001 across network layers,
+indicating successful knowledge transfer. By optimizing ResNet layers (7-16)
+and hidden features (70-120), we achieve a 35\% reduction in inference time
+while maintaining parameter estimation accuracy. This work demonstrates
+significant improvements in computational efficiency for gravitational wave
+data analysis, providing valuable insights for real-time event processing.</p></br>
