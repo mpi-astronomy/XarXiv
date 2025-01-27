@@ -1,51 +1,29 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202501182000+TO+202501242000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, stat.*, cs.AI, physics.data-an staritng 202501182000 and ending 202501242000</h1>Feed last updated: 2025-01-23T00:00:00-05:00<a href="http://arxiv.org/pdf/2501.11762v1"><h2>Disentangling stellar atmospheric parameters in astronomical spectra
-  using Generative Adversarial Neural Networks</h2></a>Authors:  Minia Manteiga, Raúl Santoveña, Marco A. Álvarez, Carlos Dafonte, Manuel G. Penedo, Silvana Navarro, Luis Corral</br>Comments: 9 pages, 8 figures</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.GA, astro-ph.SR, cs.LG</br><p>A method based on Generative Adversaria! Networks (GANs) is developed for
-disentangling the physical (effective temperature and gravity) and chemical
-(metallicity, overabundance of a-elements with respect to iron) atmospheric
-properties in astronomical spectra. Using a projection of the stellar spectra,
-commonly called latent space, in which the contribution dueto one or several
-main stellar physicochemical properties is minimised while others are enhanced,
-it was possible to maximise the information related to certain properties,
-which can then be extracted using artificial neural networks (ANN) as
-regressors with higher accuracy than a reference method based on the use of ANN
-trained with the original spectra. Methods. Our model utilises autoencoders,
-comprising two artificial neural networks: an encoder anda decoder which
-transform input data into a low-dimensional representation known as latent
-space. It also uses discriminators, which are additional neural networks aimed
-at transforming the traditional autoencoder training into an adversaria!
-approach, to disentangle or reinforce the astrophysical parameters from the
-latent space. The GANDALF tool is described. It was developed to define, train,
-and test our GAN model with a web framework to show how the disentangling
-algorithm works visually. It is open to the community in Github. Results. The
-performance of our approach for retrieving atmospheric stellar properties from
-spectra is demonstrated using Gaia Radial Velocity Spectrograph (RVS) data from
-DR3. We use a data-driven perspective and obtain very competitive values, ali
-within the literature errors, and with the advantage of an important
-dimensionality reduction of the data to be processed.</p></br><a href="http://arxiv.org/pdf/2501.11657v1"><h2>Classification of HI Galaxy Profiles Using Unsupervised Learning and
-  Convolutional Neural Networks: A Comparative Analysis and Methodological
-  Cases of Studies</h2></a>Authors:  Gabriel Jaimes-Illanes, Manuel Parra-Royon, Laura Darriba-Pol, Javier Moldón, Amidou Sorgho, Susana Sánchez-Expósito, Julián Garrido-Sánchez, Lourdes Verdes-Montenegro</br>Comments: 5 pages, 3 figures</br>Primary Category: astro-ph.GA</br>All Categories: astro-ph.GA, cs.LG</br><p>Hydrogen, the most abundant element in the universe, is crucial for
-understanding galaxy formation and evolution. The 21 cm neutral atomic hydrogen
-- HI spectral line maps the gas kinematics within galaxies, providing key
-insights into interactions, galactic structure, and star formation processes.
-With new radio instruments, the volume and complexity of data is increasing. To
-analyze and classify integrated HI spectral profiles in a efficient way, this
-work presents a framework that integrates Machine Learning techniques,
-combining unsupervised methods and CNNs. To this end, we apply our framework to
-a selected subsample of 318 spectral HI profiles of the CIG and 30.780 profiles
-from the Arecibo Legacy Fast ALFA Survey catalogue. Data pre-processing
-involved the Busyfit package and iterative fitting with polynomial, Gaussian,
-and double-Lorentzian models. Clustering methods, including K-means, spectral
-clustering, DBSCAN, and agglomerative clustering, were used for feature
-extraction and to bootstrap classification we applied K-NN, SVM, and Random
-Forest classifiers, optimizing accuracy with CNN. Additionally, we introduced a
-2D model of the profiles to enhance classification by adding dimensionality to
-the data. Three 2D models were generated based on transformations and
-normalised versions to quantify the level of asymmetry. These methods were
-tested in a previous analytical classification study conducted by the Analysis
-of the Interstellar Medium in Isolated Galaxies group. This approach enhances
-classification accuracy and aims to establish a methodology that could be
-applied to data analysis in future surveys conducted with the Square Kilometre
-Array (SKA), currently under construction. All materials, code, and models have
-been made publicly available in an open-access repository, adhering to FAIR
-principles.</p></br>
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202501212000+TO+202501272000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on stat.*, cs.AI, cs.LG, physics.data-an staritng 202501212000 and ending 202501272000</h1>Feed last updated: 2025-01-26T00:00:00-05:00<a href="http://arxiv.org/pdf/2501.14048v1"><h2>SIDDA: SInkhorn Dynamic Domain Adaptation for Image Classification with
+  Equivariant Neural Networks</h2></a>Authors:  Sneh Pandya, Purvik Patel, Brian D. Nord, Mike Walmsley, Aleksandra Ćiprijanović</br>Comments: 25 pages, 5 figures, 4 tables. code available at:
+  https://github.com/deepskies/SIDDA</br>Primary Category: cs.LG</br>All Categories: cs.LG, astro-ph.GA, cs.AI, cs.CV</br><p>Modern neural networks (NNs) often do not generalize well in the presence of
+a "covariate shift"; that is, in situations where the training and test data
+distributions differ, but the conditional distribution of classification labels
+remains unchanged. In such cases, NN generalization can be reduced to a problem
+of learning more domain-invariant features. Domain adaptation (DA) methods
+include a range of techniques aimed at achieving this; however, these methods
+have struggled with the need for extensive hyperparameter tuning, which then
+incurs significant computational costs. In this work, we introduce SIDDA, an
+out-of-the-box DA training algorithm built upon the Sinkhorn divergence, that
+can achieve effective domain alignment with minimal hyperparameter tuning and
+computational overhead. We demonstrate the efficacy of our method on multiple
+simulated and real datasets of varying complexity, including simple shapes,
+handwritten digits, and real astronomical observations. SIDDA is compatible
+with a variety of NN architectures, and it works particularly well in improving
+classification accuracy and model calibration when paired with equivariant
+neural networks (ENNs). We find that SIDDA enhances the generalization
+capabilities of NNs, achieving up to a $\approx40\%$ improvement in
+classification accuracy on unlabeled target data. We also study the efficacy of
+DA on ENNs with respect to the varying group orders of the dihedral group
+$D_N$, and find that the model performance improves as the degree of
+equivariance increases. Finally, we find that SIDDA enhances model calibration
+on both source and target data--achieving over an order of magnitude
+improvement in the ECE and Brier score. SIDDA's versatility, combined with its
+automated approach to domain alignment, has the potential to advance
+multi-dataset studies by enabling the development of highly generalizable
+models.</p></br>
