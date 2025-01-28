@@ -1,5 +1,55 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202501212000+TO+202501272000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on stat.*, cs.AI, cs.LG, physics.data-an staritng 202501212000 and ending 202501272000</h1>Feed last updated: 2025-01-26T00:00:00-05:00<a href="http://arxiv.org/pdf/2501.14048v1"><h2>SIDDA: SInkhorn Dynamic Domain Adaptation for Image Classification with
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202501222000+TO+202501282000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.LG, stat.*, physics.data-an, cs.AI staritng 202501222000 and ending 202501282000</h1>Feed last updated: 2025-01-27T00:00:00-05:00<a href="http://arxiv.org/pdf/2501.15017v1"><h2>SPOCK 2.0: Update to the FeatureClassifier in the Stability of Planetary
+  Orbital Configurations Klassifier</h2></a>Authors:  Elio Thadhani, Yolanda Ba, Hanno Rein, Daniel Tamayo</br>Comments: 3 pages, 1 table. Submitted to RNAAS</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.LG</br><p>The Stability of Planetary Orbital Configurations Klassifier (SPOCK) package
+collects machine learning models for predicting the stability and collisional
+evolution of compact planetary systems. In this paper we explore improvements
+to SPOCK's binary stability classifier (FeatureClassifier), which predicts
+orbital stability by collecting data over a short N-body integration of a
+system. We find that by using a system-specific timescale (rather than a fixed
+$10^4$ orbits) for the integration, and by using this timescale as an
+additional feature, we modestly improve the model's AUC metric from 0.943 to
+0.950 (AUC=1 for a perfect model). We additionally discovered that $\approx
+10\%$ of N-body integrations in SPOCK's original training dataset were
+duplicated by accident, and that $<1\%$ were misclassified as stable when they
+in fact led to ejections. We provide a cleaned dataset of 100,000+ unique
+integrations, release a newly trained stability classification model, and make
+minor updates to the API.</p></br><a href="http://arxiv.org/pdf/2501.15149v1"><h2>Mapping Galaxy Images Across Ultraviolet, Visible and Infrared Bands
+  Using Generative Deep Learning</h2></a>Authors:  Youssef Zaazou, Alex Bihlo, Terrence S. Tricco</br>Comments: 15 pages, 6 figures, Submitted to ApJ, GitHub:
+  https://github.com/yazaazou/Galaxy-Band-Conversion</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.GA, cs.AI</br><p>We demonstrate that generative deep learning can translate galaxy
+observations across ultraviolet, visible, and infrared photometric bands.
+Leveraging mock observations from the Illustris simulations, we develop and
+validate a supervised image-to-image model capable of performing both band
+interpolation and extrapolation. The resulting trained models exhibit high
+fidelity in generating outputs, as verified by both general image comparison
+metrics (MAE, SSIM, PSNR) and specialized astronomical metrics (GINI
+coefficient, M20). Moreover, we show that our model can be used to predict
+real-world observations, using data from the DECaLS survey as a case study.
+These findings highlight the potential of generative learning to augment
+astronomical datasets, enabling efficient exploration of multi-band information
+in regions where observations are incomplete. This work opens new pathways for
+optimizing mission planning, guiding high-resolution follow-ups, and enhancing
+our understanding of galaxy morphology and evolution.</p></br><a href="http://arxiv.org/pdf/2501.15739v1"><h2>Automatic Machine Learning Framework to Study Morphological Parameters
+  of AGN Host Galaxies within $z < 1.4$ in the Hyper Supreme-Cam Wide Survey</h2></a>Authors:  Chuan Tian, C. Megan Urry, Aritra Ghosh, Daisuke Nagai, Tonima T. Ananna, Meredith C. Powell, Connor Auge, Aayush Mishra, David B. Sanders, Nico Cappelluti, Kevin Schawinski</br>Comments: Accepted for publication in The Astrophysical Journal. 31 Pages. 20
+  Figures</br>Primary Category: astro-ph.GA</br>All Categories: astro-ph.GA, astro-ph.IM, cs.LG</br><p>We present a composite machine learning framework to estimate posterior
+probability distributions of bulge-to-total light ratio, half-light radius, and
+flux for Active Galactic Nucleus (AGN) host galaxies within $z<1.4$ and $m<23$
+in the Hyper Supreme-Cam Wide survey. We divide the data into five redshift
+bins: low ($0<z<0.25$), mid ($0.25<z<0.5$), high ($0.5<z<0.9$), extra
+($0.9<z<1.1$) and extreme ($1.1<z<1.4$), and train our models independently in
+each bin. We use PSFGAN to decompose the AGN point source light from its host
+galaxy, and invoke the Galaxy Morphology Posterior Estimation Network (GaMPEN)
+to estimate morphological parameters of the recovered host galaxy. We first
+trained our models on simulated data, and then fine-tuned our algorithm via
+transfer learning using labeled real data. To create training labels for
+transfer learning, we used GALFIT to fit $\sim 20,000$ real HSC galaxies in
+each redshift bin. We comprehensively examined that the predicted values from
+our final models agree well with the GALFIT values for the vast majority of
+cases. Our PSFGAN + GaMPEN framework runs at least three orders of magnitude
+faster than traditional light-profile fitting methods, and can be easily
+retrained for other morphological parameters or on other datasets with diverse
+ranges of resolutions, seeing conditions, and signal-to-noise ratios, making it
+an ideal tool for analyzing AGN host galaxies from large surveys coming soon
+from the Rubin-LSST, Euclid, and Roman telescopes.</p></br><a href="http://arxiv.org/pdf/2501.14048v1"><h2>SIDDA: SInkhorn Dynamic Domain Adaptation for Image Classification with
   Equivariant Neural Networks</h2></a>Authors:  Sneh Pandya, Purvik Patel, Brian D. Nord, Mike Walmsley, Aleksandra Ćiprijanović</br>Comments: 25 pages, 5 figures, 4 tables. code available at:
   https://github.com/deepskies/SIDDA</br>Primary Category: cs.LG</br>All Categories: cs.LG, astro-ph.GA, cs.AI, cs.CV</br><p>Modern neural networks (NNs) often do not generalize well in the presence of
 a "covariate shift"; that is, in situations where the training and test data
