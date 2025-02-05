@@ -1,30 +1,89 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202501292000+TO+202502042000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, physics.data-an, cs.AI, stat.* staritng 202501292000 and ending 202502042000</h1>Feed last updated: 2025-02-03T00:00:00-05:00<a href="http://arxiv.org/pdf/2501.19064v1"><h2>Machine Learning in Gamma Astronomy</h2></a>Authors:  A. P. Kryukov, A. P. Demichev, V. A. Ilyin</br>Comments: 20 pages, 5 figures, Proceedings of The 8th International Conference
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202501302000+TO+202502052000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.LG, physics.data-an, stat.*, cs.AI staritng 202501302000 and ending 202502052000</h1>Feed last updated: 2025-02-04T00:00:00-05:00<a href="http://arxiv.org/pdf/2501.19064v1"><h2>Machine Learning in Gamma Astronomy</h2></a>Authors:  A. P. Kryukov, A. P. Demichev, V. A. Ilyin</br>Comments: 20 pages, 5 figures, Proceedings of The 8th International Conference
   on Deep Learning in Computational Physics, June 19-21, 2024, Moscow, Russia</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.HE, cs.LG</br><p>The purpose of this paper is to review the most popular deep learning methods
 used to analyze astroparticle data obtained with Imaging Atmospheric Cherenkov
-Telescopes and provide references to the original papers.</p></br><a href="http://arxiv.org/pdf/2501.18423v1"><h2>DeepExtractor: Time-domain reconstruction of signals and glitches in
-  gravitational wave data with deep learning</h2></a>Authors:  Tom Dooney, Harsh Narola, Stefano Bromuri, R. Lyana Curier, Chris Van Den Broeck, Sarah Caudill, Daniel Stanley Tan</br>Comments: 22 pages, 16 figures, 4 tables</br>Primary Category: gr-qc</br>All Categories: gr-qc, astro-ph.IM, cs.LG, physics.data-an, physics.ins-det</br><p>Gravitational wave (GW) interferometers, detect faint signals from distant
-astrophysical events, such as binary black hole mergers. However, their high
-sensitivity also makes them susceptible to background noise, which can obscure
-these signals. This noise often includes transient artifacts called "glitches"
-that can mimic astrophysical signals or mask their characteristics. Fast and
-accurate reconstruction of both signals and glitches is crucial for reliable
-scientific inference. In this study, we present DeepExtractor, a deep learning
-framework designed to reconstruct signals and glitches with power exceeding
-interferometer noise, regardless of their source. We design DeepExtractor to
-model the inherent noise distribution of GW interferometers, following
-conventional assumptions that the noise is Gaussian and stationary over short
-time scales. It operates by predicting and subtracting the noise component of
-the data, retaining only the clean reconstruction. Our approach achieves
-superior generalization capabilities for arbitrary signals and glitches
-compared to methods that directly map inputs to the clean training waveforms.
-We validate DeepExtractor's effectiveness through three experiments: (1)
-reconstructing simulated glitches injected into simulated detector noise, (2)
-comparing performance with the state-of-the-art BayesWave algorithm, and (3)
-analyzing real data from the Gravity Spy dataset to demonstrate effective
-glitch subtraction from LIGO strain data. DeepExtractor achieves a median
-mismatch of only 0.9% for simulated glitches, outperforming several deep
-learning baselines. Additionally, DeepExtractor surpasses BayesWave in glitch
-recovery, offering a dramatic computational speedup by reconstructing one
-glitch sample in approx. 0.1 seconds on a CPU, compared to BayesWave's
-processing time of approx. one hour per glitch.</p></br>
+Telescopes and provide references to the original papers.</p></br><a href="http://arxiv.org/pdf/2502.01500v1"><h2>Gamma/hadron separation in the TAIGA experiment with neural network
+  methods</h2></a>Authors:  E. O. Gres, A. P. Kryukov, P. A. Volchugov, J. J. Dubenskaya, D. P. Zhurov, S. P. Polyakov, E. B. Postnikov, A. A. Vlaskina</br>Comments: 7 pages, 5 figures, Proceedings of The 8th International Conference
+  on Deep Learning in Computational Physics, June 19-21, 2024, Moscow, Russia</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.HE, cs.LG</br><p>In this work, the ability of rare VHE gamma ray selection with neural network
+methods is investigated in the case when cosmic radiation flux strongly
+prevails (ratio up to {10^4} over the gamma radiation flux from a point
+source). This ratio is valid for the Crab Nebula in the TeV energy range, since
+the Crab is a well-studied source for calibration and test of various methods
+and installations in gamma astronomy. The part of TAIGA experiment which
+includes three Imaging Atmospheric Cherenkov Telescopes observes this
+gamma-source too. Cherenkov telescopes obtain images of Extensive Air Showers.
+Hillas parameters can be used to analyse images in standard processing method,
+or images can be processed with convolutional neural networks. In this work we
+would like to describe the main steps and results obtained in the gamma/hadron
+separation task from the Crab Nebula with neural network methods. The results
+obtained are compared with standard processing method applied in the TAIGA
+collaboration and using Hillas parameter cuts. It is demonstrated that a signal
+was received at the level of higher than 5.5{\sigma} in 21 hours of Crab Nebula
+observations after processing the experimental data with the neural network
+method.</p></br><a href="http://arxiv.org/pdf/2502.01627v1"><h2>A Poisson Process AutoDecoder for X-ray Sources</h2></a>Authors:  Yanke Song, Victoria Ashley Villar, Juan Rafael Martinez-Galarza, Steven Dillmann</br>Comments: 13 pages, 5 figures</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.HE, cs.LG, stat.AP</br><p>X-ray observing facilities, such as the Chandra X-ray Observatory and the
+eROSITA, have detected millions of astronomical sources associated with
+high-energy phenomena. The arrival of photons as a function of time follows a
+Poisson process and can vary by orders-of-magnitude, presenting obstacles for
+common tasks such as source classification, physical property derivation, and
+anomaly detection. Previous work has either failed to directly capture the
+Poisson nature of the data or only focuses on Poisson rate function
+reconstruction. In this work, we present Poisson Process AutoDecoder (PPAD).
+PPAD is a neural field decoder that maps fixed-length latent features to
+continuous Poisson rate functions across energy band and time via unsupervised
+learning. PPAD reconstructs the rate function and yields a representation at
+the same time. We demonstrate the efficacy of PPAD via reconstruction,
+regression, classification and anomaly detection experiments using the Chandra
+Source Catalog.</p></br><a href="http://arxiv.org/pdf/2502.01510v1"><h2>Grid-based exoplanet atmospheric mass loss predictions through neural
+  network</h2></a>Authors:  Amit Reza, Daria Kubyshkina, Luca Fossati, Christiane Helling</br>Comments: Accepted for publication on A&A</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, cs.LG</br><p>The fast and accurate estimation of planetary mass-loss rates is critical for
+planet population and evolution modelling. We use machine learning (ML) for
+fast interpolation across an existing large grid of hydrodynamic upper
+atmosphere models, providing mass-loss rates for any planet inside the grid
+boundaries with superior accuracy compared to previously published
+interpolation schemes. We consider an already available grid comprising about
+11000 hydrodynamic upper atmosphere models for training and generate an
+additional grid of about 250 models for testing purposes. We develop the ML
+interpolation scheme (dubbed "atmospheric Mass Loss INquiry frameworK"; MLink)
+using a Dense Neural Network, further comparing the results with what was
+obtained employing classical approaches (e.g. linear interpolation and radial
+basis function-based regression). Finally, we study the impact of the different
+interpolation schemes on the evolution of a small sample of carefully selected
+synthetic planets. MLink provides high-quality interpolation across the entire
+parameter space by significantly reducing both the number of points with large
+interpolation errors and the maximum interpolation error compared to previously
+available schemes. For most cases, evolutionary tracks computed employing MLink
+and classical schemes lead to comparable planetary parameters at
+Gyr-timescales. However, particularly for planets close to the top edge of the
+radius gap, the difference between the predicted planetary radii at a given age
+of tracks obtained employing MLink and classical interpolation schemes can
+exceed the typical observational uncertainties. Machine learning can be
+successfully used to estimate atmospheric mass-loss rates from model grids
+paving the way to explore future larger and more complex grids of models
+computed accounting for more physical processes.</p></br><a href="http://arxiv.org/pdf/2502.00243v1"><h2>A Fast Periodicity Detection Algorithm Sensitive to Arbitrary Waveforms</h2></a>Authors:  Douglas P. Finkbeiner, Thomas A. Prince, Samuel E. Whitebook</br>Comments: 17 pages, 7 figures, code attached</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, physics.data-an</br><p>A reexamination of period finding algorithms is prompted by new large area
+astronomical sky surveys that can identify billions of individual sources
+having a thousand or more observations per source. This large increase in data
+necessitates fast and efficient period detection algorithms. In this paper, we
+provide an initial description of an algorithm that is being used for detection
+of periodic behavior in a sample of 1.5 billion objects using light curves
+generated from Zwicky Transient Facility (ZTF) data (Bellm et al. 2019; Masci
+et al. 2018). We call this algorithm "Fast Periodicity Weighting" (FPW),
+derived using a Gaussian Process (GP) formalism. A major advantage of the FPW
+algorithm for ZTF analysis is that it is agnostic to the details of the
+phase-folded waveform. Periodic sources in ZTF show a wide variety of
+waveforms, some quite complex, including eclipsing objects, sinusoidally
+varying objects also exhibiting eclipses, objects with cyclotron emission at
+various phases, and accreting objects with complex waveforms. We describe the
+FPW algorithm and its application to ZTF, and provide efficient code for both
+CPU and GPU.</p></br><a href="http://arxiv.org/pdf/2502.01929v1"><h2>Exploring blazars through sonification. Visual and auditory insights
+  into multifrequency variability</h2></a>Authors:  Gustavo Magallanes-Guijón, Sergio Mendoza</br>Comments: 12 pages, 9 figures</br>Primary Category: astro-ph.HE</br>All Categories: astro-ph.HE, physics.data-an, physics.soc-ph</br><p>Using open astronomical multifrequency databases, we constructed light curves
+and developed a comprehensive visualisation and sonification analysis for the
+blazars Mrk~501, Mrk~1501, Mrk~421, BL~Lacerta, AO~0235+164, 3C~66A, OJ~049,
+OJ~287, and PKS~J2134-0153. This study employed Musical Instrument Digital
+Interface (MIDI) and Parameter Mapping Sonification (PMSon) techniques to
+generate waveforms, spectrograms, and sonifications. These representations
+demonstrate that data visualisation and sonification are powerful tools for
+analysing astronomical objects like blazers, providing insights into their
+multifrequency variability. This work highlights how sonification and
+visualisation can aid in identifying potential patterns, power variations,
+regularities, and gaps in the data. This multimodal approach also underscores
+the importance of inclusivity in scientific communication, offering accessible
+methods for exploring the complex behaviour of blazers.</p></br>
