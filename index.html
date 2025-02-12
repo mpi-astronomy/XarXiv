@@ -1,16 +1,74 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202502052000+TO+202502112000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on stat.*, cs.LG, cs.AI, physics.data-an staritng 202502052000 and ending 202502112000</h1>Feed last updated: 2025-02-10T00:00:00-05:00<a href="http://arxiv.org/pdf/2502.04310v1"><h2>Finding Pegasus: Enhancing Unsupervised Anomaly Detection in
-  High-Dimensional Data using a Manifold-Based Approach</h2></a>Authors:  R. P. Nathan, Nikolaos Nikolaou, Ofer Lahav</br>Comments: 21 pages, 14 figures</br>Primary Category: cs.LG</br>All Categories: cs.LG, astro-ph.CO</br><p>Unsupervised machine learning methods are well suited to searching for
-anomalies at scale but can struggle with the high-dimensional representation of
-many modern datasets, hence dimensionality reduction (DR) is often performed
-first. In this paper we analyse unsupervised anomaly detection (AD) from the
-perspective of the manifold created in DR. We present an idealised
-illustration, "Finding Pegasus", and a novel formal framework with which we
-categorise AD methods and their results into "on manifold" and "off manifold".
-We define these terms and show how they differ. We then use this insight to
-develop an approach of combining AD methods which significantly boosts AD
-recall without sacrificing precision in situations employing high DR. When
-tested on MNIST data, our approach of combining AD methods improves recall by
-as much as 16 percent compared with simply combining with the best standalone
-AD method (Isolation Forest), a result which shows great promise for its
-application to real-world data.</p></br>
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202502062000+TO+202502122000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on stat.*, cs.AI, cs.LG, physics.data-an staritng 202502062000 and ending 202502122000</h1>Feed last updated: 2025-02-11T00:00:00-05:00<a href="http://arxiv.org/pdf/2502.07542v1"><h2>Exoplanet Transit Candidate Identification in TESS Full-Frame Images via
+  a Transformer-Based Algorithm</h2></a>Authors:  Helem Salinas, Rafael Brahm, Greg Olmschenk, Richard K. Barry, Karim Pichara, Stela Ishitani Silva, Vladimir Araujo</br>Comments: No comment found</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.GA, astro-ph.IM, cs.AI</br><p>The Transiting Exoplanet Survey Satellite (TESS) is surveying a large
+fraction of the sky, generating a vast database of photometric time series data
+that requires thorough analysis to identify exoplanetary transit signals.
+Automated learning approaches have been successfully applied to identify
+transit signals. However, most existing methods focus on the classification and
+validation of candidates, while few efforts have explored new techniques for
+the search of candidates. To search for new exoplanet transit candidates, we
+propose an approach to identify exoplanet transit signals without the need for
+phase folding or assuming periodicity in the transit signals, such as those
+observed in multi-transit light curves. To achieve this, we implement a new
+neural network inspired by Transformers to directly process Full Frame Image
+(FFI) light curves to detect exoplanet transits. Transformers, originally
+developed for natural language processing, have recently demonstrated
+significant success in capturing long-range dependencies compared to previous
+approaches focused on sequential data. This ability allows us to employ
+multi-head self-attention to identify exoplanet transit signals directly from
+the complete light curves, combined with background and centroid time series,
+without requiring prior transit parameters. The network is trained to learn
+characteristics of the transit signal, like the dip shape, which helps
+distinguish planetary transits from other variability sources. Our model
+successfully identified 214 new planetary system candidates, including 122
+multi-transit light curves, 88 single-transit and 4 multi-planet systems from
+TESS sectors 1-26 with a radius > 0.27 $R_{\mathrm{Jupiter}}$, demonstrating
+its ability to detect transits regardless of their periodicity.</p></br><a href="http://arxiv.org/pdf/2502.07259v1"><h2>Flat U-Net: An Efficient Ultralightweight Model for Solar Filament
+  Segmentation in Full-disk H$α$ Images</h2></a>Authors:  GaoFei Zhu, GangHua Lin, Xiao Yang, Cheng Zeng</br>Comments: 15 pages, 5 figures, 3 tables, accepted for publication in ApJ</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.SR, cs.CV, cs.LG</br><p>Solar filaments are one of the most prominent features observed on the Sun,
+and their evolutions are closely related to various solar activities, such as
+flares and coronal mass ejections. Real-time automated identification of solar
+filaments is the most effective approach to managing large volumes of data.
+Existing models of filament identification are characterized by large parameter
+sizes and high computational costs, which limit their future applications in
+highly integrated and intelligent ground-based and space-borne observation
+devices. Consequently, the design of more lightweight models will facilitate
+the advancement of intelligent observation equipment. In this study, we
+introduce Flat U-Net, a novel and highly efficient ultralightweight model that
+incorporates simplified channel attention (SCA) and channel self-attention
+(CSA) convolutional blocks for the segmentation of solar filaments in full-disk
+H$\alpha$ images. Feature information from each network layer is fully
+extracted to reconstruct interchannel feature representations. Each block
+effectively optimizes the channel features from the previous layer,
+significantly reducing parameters. The network architecture presents an elegant
+flattening, improving its efficiency, and simplifying the overall design.
+Experimental validation demonstrates that a model composed of pure SCAs
+achieves a precision of approximately 0.93, with dice similarity coefficient
+(DSC) and recall rates of 0.76 and 0.64, respectively, significantly
+outperforming the classical U-Net. Introducing a certain number of CSA blocks
+improves the DSC and recall rates to 0.82 and 0.74, respectively, which
+demonstrates a pronounced advantage, particularly concerning model weight size
+and detection effectiveness. The data set, models, and code are available as
+open-source resources.</p></br><a href="http://arxiv.org/pdf/2502.05351v1"><h2>Deep Generative model that uses physical quantities to generate and
+  retrieve solar magnetic active regions</h2></a>Authors:  Subhamoy Chatterjee, Andres Munoz-Jaramillo, Anna Malanushenko</br>Comments: 9 pages, 6 figures</br>Primary Category: astro-ph.SR</br>All Categories: astro-ph.SR, cs.LG, stat.ML</br><p>Deep generative models have shown immense potential in generating unseen data
+that has properties of real data. These models learn complex data-generating
+distributions starting from a smaller set of latent dimensions. However,
+generative models have encountered great skepticism in scientific domains due
+to the disconnection between generative latent vectors and scientifically
+relevant quantities. In this study, we integrate three types of machine
+learning models to generate solar magnetic patches in a physically
+interpretable manner and use those as a query to find matching patches in real
+observations. We use the magnetic field measurements from Space-weather HMI
+Active Region Patches (SHARPs) to train a Generative Adversarial Network (GAN).
+We connect the physical properties of GAN-generated images with their latent
+vectors to train Support Vector Machines (SVMs) that do mapping between
+physical and latent spaces. These produce directions in the GAN latent space
+along which known physical parameters of the SHARPs change. We train a
+self-supervised learner (SSL) to make queries with generated images and find
+matches from real data. We find that the GAN-SVM combination enables users to
+produce high-quality patches that change smoothly only with a prescribed
+physical quantity, making generative models physically interpretable. We also
+show that GAN outputs can be used to retrieve real data that shares the same
+physical properties as the generated query. This elevates Generative Artificial
+Intelligence (AI) from a means-to-produce artificial data to a novel tool for
+scientific data interrogation, supporting its applicability beyond the domain
+of heliophysics.</p></br>
