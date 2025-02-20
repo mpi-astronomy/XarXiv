@@ -1,5 +1,5 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202502132000+TO+202502192000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on stat.*, cs.LG, cs.AI, physics.data-an staritng 202502132000 and ending 202502192000</h1>Feed last updated: 2025-02-18T00:00:00-05:00<a href="http://arxiv.org/pdf/2502.12156v1"><h2>Sampling the full hierarchical population posterior distribution in
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202502142000+TO+202502202000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.AI, stat.*, physics.data-an, cs.LG staritng 202502142000 and ending 202502202000</h1>Feed last updated: 2025-02-19T00:00:00-05:00<a href="http://arxiv.org/pdf/2502.12156v1"><h2>Sampling the full hierarchical population posterior distribution in
   gravitational-wave astronomy</h2></a>Authors:  Michele Mancarella, Davide Gerosa</br>Comments: 9+1 pages, 4+1 figures</br>Primary Category: gr-qc</br>All Categories: gr-qc, astro-ph.CO, astro-ph.HE, astro-ph.IM, physics.data-an</br><p>We present a full sampling of the hierarchical population posterior
 distribution of merging black holes using current gravitational-wave data. We
 directly tackle the the most relevant intrinsic parameter space made of the
@@ -35,29 +35,48 @@ hardware-accelerated re-implementation of a time-domain waveform. The inner
 product is the key building block of all gravitational-wave data treatments; by
 speeding up this low-level element so massively, SFTs provide an extremely
 promising solution for current and future gravitational-wave data-analysis
-problem</p></br><a href="http://arxiv.org/pdf/2502.09810v1"><h2>$Λ$CDM and early dark energy in latent space: a data-driven
-  parametrization of the CMB temperature power spectrum</h2></a>Authors:  Davide Piras, Laura Herold, Luisa Lucie-Smith, Eiichiro Komatsu</br>Comments: 17 pages, 12 figures, comments welcome</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, astro-ph.IM, cs.LG</br><p>Finding the best parametrization for cosmological models in the absence of
-first-principle theories is an open question. We propose a data-driven
-parametrization of cosmological models given by the disentangled 'latent'
-representation of a variational autoencoder (VAE) trained to compress cosmic
-microwave background (CMB) temperature power spectra. We consider a broad range
-of $\Lambda$CDM and beyond-$\Lambda$CDM cosmologies with an additional early
-dark energy (EDE) component. We show that these spectra can be compressed into
-5 ($\Lambda$CDM) or 8 (EDE) independent latent parameters, as expected when
-using temperature power spectra alone, and which reconstruct spectra at an
-accuracy well within the Planck errors. These latent parameters have a physical
-interpretation in terms of well-known features of the CMB temperature spectrum:
-these include the position, height and even-odd modulation of the acoustic
-peaks, as well as the gravitational lensing effect. The VAE also discovers one
-latent parameter which entirely isolates the EDE effects from those related to
-$\Lambda$CDM parameters, thus revealing a previously unknown degree of freedom
-in the CMB temperature power spectrum. We further showcase how to place
-constraints on the latent parameters using Planck data as typically done for
-cosmological parameters, obtaining latent values consistent with previous
-$\Lambda$CDM and EDE cosmological constraints. Our work demonstrates the
-potential of a data-driven reformulation of current beyond-$\Lambda$CDM
-phenomenological models into the independent degrees of freedom to which the
-data observables are sensitive.</p></br><a href="http://arxiv.org/pdf/2502.11134v1"><h2>Solving Online Resource-Constrained Scheduling for Follow-Up Observation
+problem</p></br><a href="http://arxiv.org/pdf/2502.13851v1"><h2>Evaluation of EAS directions based on TAIGA HiSCORE data using fully
+  connected neural networks</h2></a>Authors:  A. P. Kryukov, S. P. Polyakov, Yu. Yu. Dubenskaya, E. O. Gres, E. B. Postnikov, P. A. Volchugov, D. P. Zhurov</br>Comments: The work was reported on the 8th International Conference on Deep
+  Learning in Computational Physics (DLCP2025), June 19-21, 2024, Moscow,
+  Russia (https://dlcp2024.sinp.msu.ru/). To bee published in Moscow University
+  Physics Bulletin</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.HE, cs.LG</br><p>The direction of extensive air showers can be used to determine the source of
+gamma quanta and plays an important role in estimating the energy of the
+primary particle. The data from an array of non-imaging Cherenkov detector
+stations HiSCORE in the TAIGA experiment registering the number of
+photoelectrons and detection time can be used to estimate the shower direction
+with high accuracy. In this work, we use artificial neural networks trained on
+Monte Carlo-simulated TAIGA HiSCORE data for gamma quanta to obtain shower
+direction estimates. The neural networks are multilayer perceptrons with skip
+connections using partial data from several HiSCORE stations as inputs;
+composite estimates are derived from multiple individual estimates by the
+neural networks. We apply a two-stage algorithm in which the direction
+estimates obtained in the first stage are used to transform the input data and
+refine the estimates. The mean error of the final estimates is less than 0.25
+degrees. The approach will be used for multimodal analysis of the data from
+several types of detectors used in the TAIGA experiment.</p></br><a href="http://arxiv.org/pdf/2502.13243v1"><h2>Learning the Universe: Learning to Optimize Cosmic Initial Conditions
+  with Non-Differentiable Structure Formation Models</h2></a>Authors:  Ludvig Doeser, Metin Ata, Jens Jasche</br>Comments: 18 pages, 13 figures</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, astro-ph.GA, cs.LG</br><p>Making the most of next-generation galaxy clustering surveys requires
+overcoming challenges in complex, non-linear modelling to access the
+significant amount of information at smaller cosmological scales. Field-level
+inference has provided a unique opportunity beyond summary statistics to use
+all of the information of the galaxy distribution. However, addressing current
+challenges often necessitates numerical modelling that incorporates
+non-differentiable components, hindering the use of efficient gradient-based
+inference methods. In this paper, we introduce Learning the Universe by
+Learning to Optimize (LULO), a gradient-free framework for reconstructing the
+3D cosmic initial conditions. Our approach advances deep learning to train an
+optimization algorithm capable of fitting state-of-the-art non-differentiable
+simulators to data at the field level. Importantly, the neural optimizer solely
+acts as a search engine in an iterative scheme, always maintaining full physics
+simulations in the loop, ensuring scalability and reliability. We demonstrate
+the method by accurately reconstructing initial conditions from
+$M_{200\mathrm{c}}$ halos identified in a dark matter-only $N$-body simulation
+with a spherical overdensity algorithm. The derived dark matter and halo
+overdensity fields exhibit $\geq80\%$ cross-correlation with the ground truth
+into the non-linear regime $k \sim 1h$ Mpc$^{-1}$. Additional cosmological
+tests reveal accurate recovery of the power spectra, bispectra, halo mass
+function, and velocities. With this work, we demonstrate a promising path
+forward to non-linear field-level inference surpassing the requirement of a
+differentiable physics model.</p></br><a href="http://arxiv.org/pdf/2502.11134v1"><h2>Solving Online Resource-Constrained Scheduling for Follow-Up Observation
   in Astronomy: a Reinforcement Learning Approach</h2></a>Authors:  Yajie Zhang, Ce Yu, Chao Sun, Jizeng Wei, Junhan Ju, Shanjiang Tang</br>Comments: No comment found</br>Primary Category: cs.AI</br>All Categories: cs.AI, astro-ph.IM</br><p>In the astronomical observation field, determining the allocation of
 observation resources of the telescope array and planning follow-up
 observations for targets of opportunity (ToOs) are indispensable components of
