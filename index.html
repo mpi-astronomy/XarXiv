@@ -1,13 +1,93 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202506262000+TO+202507022000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on physics.data-an, cs.LG, cs.AI, stat.* staritng 202506262000 and ending 202507022000</h1>Feed last updated: 2025-07-02T00:00:00-04:00<a href="http://arxiv.org/pdf/2506.21869v1"><h2>Glitches far from transient gravitational-wave events do not bias
-  inference</h2></a>Authors:  Sophie Hourihane, Katerina Chatziioannou</br>Comments: 14 pages, 7 figures</br>Primary Category: gr-qc</br>All Categories: gr-qc, astro-ph.IM, physics.data-an</br><p>Non-Gaussian noise in gravitational-wave detectors, known as "glitches," can
-bias the inferred parameters of transient signals when they occur nearby in
-time and frequency. These biases are addressed with a variety of methods that
-remove or otherwise mitigate the impact of the glitch. Given the computational
-cost and human effort required for glitch mitigation, we study the conditions
-under which it is strictly necessary. We consider simulated glitches and
-gravitational-wave signals in various configurations that probe their proximity
-both in time and in frequency. We determine that glitches located outside the
-time-frequency space spanned by the gravitational-wave model prior and with a
-signal-to-noise ratio, conservatively, below 50 do not impact estimation of the
-signal parameters.</p></br>
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202506272000+TO+202507032000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on physics.data-an, cs.LG, stat.*, cs.AI staritng 202506272000 and ending 202507032000</h1>Feed last updated: 2025-07-03T00:00:00-04:00<a href="http://arxiv.org/pdf/2507.00957v1"><h2>Atmospheric model-trained machine learning selection and classification
+  of ultracool TY dwarfs</h2></a>Authors:  Ankit Biswas</br>Comments: 12 pages, 9 figures, to be published in Monthly Notices of the Royal
+  Astronomical Society</br>Primary Category: astro-ph.SR</br>All Categories: astro-ph.SR, astro-ph.EP, astro-ph.IM, cs.LG</br><p>The T and Y spectral classes represent the coolest and lowest-mass population
+of brown dwarfs, yet their census remains incomplete due to limited statistics.
+Existing detection frameworks are often constrained to identifying M, L, and
+early T dwarfs, owing to the sparse observational sample of ultracool dwarfs
+(UCDs) at later types. This paper presents a novel machine learning framework
+capable of detecting and classifying late-T and Y dwarfs, trained entirely on
+synthetic photometry from atmospheric models. Utilizing grids from the ATMO
+2020 and Sonora Bobcat models, I produce a training dataset over two orders of
+magnitude larger than any empirical set of >T6 UCDs. Polynomial color relations
+fitted to the model photometry are used to assign spectral types to these
+synthetic models, which in turn train an ensemble of classifiers to identify
+and classify the spectral type of late UCDs. The model is highly performant
+when validating on both synthetic and empirical datasets, verifying catalogs of
+known UCDs with object classification metrics >99% and an average spectral type
+precision within 0.35 +/- 0.37 subtypes. Application of the model to a 1.5
+degree region around Pisces and the UKIDSS UDS field results in the discovery
+of one previously uncatalogued T8.2 candidate, demonstrating the ability of
+this model-trained approach in discovering faint, late-type UCDs from
+photometric catalogs.</p></br><a href="http://arxiv.org/pdf/2507.01501v1"><h2>Meteoroid stream identification with HDBSCAN unsupervised clustering
+  algorithm</h2></a>Authors:  Eloy Peña-Asensio, Fabio Ferrari</br>Comments: Accepted in The Astronomical Journal</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.LG</br><p>Accurate identification of meteoroid streams is central to understanding
+their origins and evolution. However, overlapping clusters and background noise
+hinder classification, an issue amplified for missions such as ESA's LUMIO that
+rely on meteor shower observations to infer lunar meteoroid impact parameters.
+This study evaluates the performance of the Hierarchical Density-Based Spatial
+Clustering of Applications with Noise (HDBSCAN) algorithm for unsupervised
+meteoroid stream identification, comparing its outcomes with the established
+Cameras for All-Sky Meteor Surveillance (CAMS) look-up table method. We analyze
+the CAMS Meteoroid Orbit Database v3.0 using three feature vectors: LUTAB (CAMS
+geocentric parameters), ORBIT (heliocentric orbital elements), and GEO (adapted
+geocentric parameters). HDBSCAN is applied with varying minimum cluster sizes
+and two cluster selection methods (eom and leaf). To align HDBSCAN clusters
+with CAMS classifications, the Hungarian algorithm determines the optimal
+mapping. Clustering performance is assessed via the Silhouette score,
+Normalized Mutual Information, and F1 score, with Principal Component Analysis
+further supporting the analysis. With the GEO vector, HDBSCAN confirms 39
+meteoroid streams, 21 strongly aligning with CAMS. The ORBIT vector identifies
+30 streams, 13 with high matching scores. Less active showers pose
+identification challenges. The eom method consistently yields superior
+performance and agreement with CAMS. Although HDBSCAN requires careful
+selection of the minimum cluster size, it delivers robust, internally
+consistent clusters and outperforms the look-up table method in statistical
+coherence. These results underscore HDBSCAN's potential as a mathematically
+consistent alternative for meteoroid stream identification, although further
+validation is needed to assess physical validity.</p></br><a href="http://arxiv.org/pdf/2507.01939v1"><h2>SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars</h2></a>Authors:  Xiaosheng Zhao, Yang Huang, Guirong Xue, Xiao Kong, Jifeng Liu, Xiaoyu Tang, Timothy C. Beers, Yuan-Sen Ting, A-Li Luo</br>Comments: 26 pages, 6 figures, 5 tables. To be submitted to AAS Journals.
+  Comments welcome</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.SR, cs.AI, cs.LG</br><p>In recent years, large language models (LLMs) have transformed natural
+language understanding through vast datasets and large-scale parameterization.
+Inspired by this success, we present SpecCLIP, a foundation model framework
+that extends LLM-inspired methodologies to stellar spectral analysis. Stellar
+spectra, akin to structured language, encode rich physical and chemical
+information about stars. By training foundation models on large-scale spectral
+datasets, our goal is to learn robust and informative embeddings that support
+diverse downstream applications. As a proof of concept, SpecCLIP involves
+pre-training on two spectral types--LAMOST low-resolution and Gaia XP--followed
+by contrastive alignment using the CLIP (Contrastive Language-Image
+Pre-training) framework, adapted to associate spectra from different
+instruments. This alignment is complemented by auxiliary decoders that preserve
+spectrum-specific information and enable translation (prediction) between
+spectral types, with the former achieved by maximizing mutual information
+between embeddings and input spectra. The result is a cross-spectrum framework
+enabling intrinsic calibration and flexible applications across instruments. We
+demonstrate that fine-tuning these models on moderate-sized labeled datasets
+improves adaptability to tasks such as stellar-parameter estimation and
+chemical-abundance determination. SpecCLIP also enhances the accuracy and
+precision of parameter estimates benchmarked against external survey data.
+Additionally, its similarity search and cross-spectrum prediction capabilities
+offer potential for anomaly detection. Our results suggest that contrastively
+trained foundation models enriched with spectrum-aware decoders can advance
+precision stellar spectroscopy.</p></br><a href="http://arxiv.org/pdf/2507.00866v1"><h2>Template-Fitting Meets Deep Learning: Redshift Estimation Using
+  Physics-Guided Neural Networks</h2></a>Authors:  Jonas Chris Ferrao, Dickson Dias, Pranav Naik, Glory D'Cruz, Anish Naik, Siya Khandeparkar, Manisha Gokuldas Fal Dessai</br>Comments: No comment found</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG</br><p>Accurate photometric redshift estimation is critical for observational
+cosmology, especially in large-scale surveys where spectroscopic measurements
+are impractical. Traditional approaches include template fitting and machine
+learning, each with distinct strengths and limitations. We present a hybrid
+method that integrates template fitting with deep learning using physics-guided
+neural networks. By embedding spectral energy distribution templates into the
+network architecture, our model encodes physical priors into the training
+process. The system employs a multimodal design, incorporating cross-attention
+mechanisms to fuse photometric and image data, along with Bayesian layers for
+uncertainty estimation. We evaluate our model on the publicly available PREML
+dataset, which includes approximately 400,000 galaxies from the Hyper
+Suprime-Cam PDR3 release, with 5-band photometry, multi-band imaging, and
+spectroscopic redshifts. Our approach achieves an RMS error of 0.0507, a
+3-sigma catastrophic outlier rate of 0.13%, and a bias of 0.0028. The model
+satisfies two of the three LSST photometric redshift requirements for redshifts
+below 3. These results highlight the potential of combining physically
+motivated templates with data-driven models for robust redshift estimation in
+upcoming cosmological surveys.</p></br><a href="http://arxiv.org/pdf/2507.00514v1"><h2>Simulation-Efficient Cosmological Inference with Multi-Fidelity SBI</h2></a>Authors:  Leander Thiele, Adrian E. Bayer, Naoya Takeishi</br>Comments: 5 pages, 4 figures; accepted at ICML-colocated ML4Astro 2025 workshop</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, cs.LG</br><p>The simulation cost for cosmological simulation-based inference can be
+decreased by combining simulation sets of varying fidelity. We propose an
+approach to such multi-fidelity inference based on feature matching and
+knowledge distillation. Our method results in improved posterior quality,
+particularly for small simulation budgets and difficult inference problems.</p></br>
