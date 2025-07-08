@@ -1,51 +1,79 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202507012000+TO+202507072000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, cs.AI, stat.*, physics.data-an staritng 202507012000 and ending 202507072000</h1>Feed last updated: 2025-07-07T00:00:00-04:00<a href="http://arxiv.org/pdf/2507.01501v1"><h2>Meteoroid stream identification with HDBSCAN unsupervised clustering
-  algorithm</h2></a>Authors:  Eloy Peña-Asensio, Fabio Ferrari</br>Comments: Accepted in The Astronomical Journal</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.LG</br><p>Accurate identification of meteoroid streams is central to understanding
-their origins and evolution. However, overlapping clusters and background noise
-hinder classification, an issue amplified for missions such as ESA's LUMIO that
-rely on meteor shower observations to infer lunar meteoroid impact parameters.
-This study evaluates the performance of the Hierarchical Density-Based Spatial
-Clustering of Applications with Noise (HDBSCAN) algorithm for unsupervised
-meteoroid stream identification, comparing its outcomes with the established
-Cameras for All-Sky Meteor Surveillance (CAMS) look-up table method. We analyze
-the CAMS Meteoroid Orbit Database v3.0 using three feature vectors: LUTAB (CAMS
-geocentric parameters), ORBIT (heliocentric orbital elements), and GEO (adapted
-geocentric parameters). HDBSCAN is applied with varying minimum cluster sizes
-and two cluster selection methods (eom and leaf). To align HDBSCAN clusters
-with CAMS classifications, the Hungarian algorithm determines the optimal
-mapping. Clustering performance is assessed via the Silhouette score,
-Normalized Mutual Information, and F1 score, with Principal Component Analysis
-further supporting the analysis. With the GEO vector, HDBSCAN confirms 39
-meteoroid streams, 21 strongly aligning with CAMS. The ORBIT vector identifies
-30 streams, 13 with high matching scores. Less active showers pose
-identification challenges. The eom method consistently yields superior
-performance and agreement with CAMS. Although HDBSCAN requires careful
-selection of the minimum cluster size, it delivers robust, internally
-consistent clusters and outperforms the look-up table method in statistical
-coherence. These results underscore HDBSCAN's potential as a mathematically
-consistent alternative for meteoroid stream identification, although further
-validation is needed to assess physical validity.</p></br><a href="http://arxiv.org/pdf/2507.01939v1"><h2>SpecCLIP: Aligning and Translating Spectroscopic Measurements for Stars</h2></a>Authors:  Xiaosheng Zhao, Yang Huang, Guirong Xue, Xiao Kong, Jifeng Liu, Xiaoyu Tang, Timothy C. Beers, Yuan-Sen Ting, A-Li Luo</br>Comments: 26 pages, 6 figures, 5 tables. To be submitted to AAS Journals.
-  Comments welcome</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.SR, cs.AI, cs.LG</br><p>In recent years, large language models (LLMs) have transformed natural
-language understanding through vast datasets and large-scale parameterization.
-Inspired by this success, we present SpecCLIP, a foundation model framework
-that extends LLM-inspired methodologies to stellar spectral analysis. Stellar
-spectra, akin to structured language, encode rich physical and chemical
-information about stars. By training foundation models on large-scale spectral
-datasets, our goal is to learn robust and informative embeddings that support
-diverse downstream applications. As a proof of concept, SpecCLIP involves
-pre-training on two spectral types--LAMOST low-resolution and Gaia XP--followed
-by contrastive alignment using the CLIP (Contrastive Language-Image
-Pre-training) framework, adapted to associate spectra from different
-instruments. This alignment is complemented by auxiliary decoders that preserve
-spectrum-specific information and enable translation (prediction) between
-spectral types, with the former achieved by maximizing mutual information
-between embeddings and input spectra. The result is a cross-spectrum framework
-enabling intrinsic calibration and flexible applications across instruments. We
-demonstrate that fine-tuning these models on moderate-sized labeled datasets
-improves adaptability to tasks such as stellar-parameter estimation and
-chemical-abundance determination. SpecCLIP also enhances the accuracy and
-precision of parameter estimates benchmarked against external survey data.
-Additionally, its similarity search and cross-spectrum prediction capabilities
-offer potential for anomaly detection. Our results suggest that contrastively
-trained foundation models enriched with spectrum-aware decoders can advance
-precision stellar spectroscopy.</p></br>
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202507022000+TO+202507082000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.LG, cs.AI, stat.*, physics.data-an staritng 202507022000 and ending 202507082000</h1>Feed last updated: 2025-07-08T00:00:00-04:00<a href="http://arxiv.org/pdf/2507.03707v1"><h2>CosmoBench: A Multiscale, Multiview, Multitask Cosmology Benchmark for
+  Geometric Deep Learning</h2></a>Authors:  Ningyuan Huang, Richard Stiskalek, Jun-Young Lee, Adrian E. Bayer, Charles C. Margossian, Christian Kragh Jespersen, Lucia A. Perez, Lawrence K. Saul, Francisco Villaescusa-Navarro</br>Comments: No comment found</br>Primary Category: cs.LG</br>All Categories: cs.LG, astro-ph.CO, astro-ph.IM</br><p>Cosmological simulations provide a wealth of data in the form of point clouds
+and directed trees. A crucial goal is to extract insights from this data that
+shed light on the nature and composition of the Universe. In this paper we
+introduce CosmoBench, a benchmark dataset curated from state-of-the-art
+cosmological simulations whose runs required more than 41 million core-hours
+and generated over two petabytes of data. CosmoBench is the largest dataset of
+its kind: it contains 34 thousand point clouds from simulations of dark matter
+halos and galaxies at three different length scales, as well as 25 thousand
+directed trees that record the formation history of halos on two different time
+scales. The data in CosmoBench can be used for multiple tasks -- to predict
+cosmological parameters from point clouds and merger trees, to predict the
+velocities of individual halos and galaxies from their collective positions,
+and to reconstruct merger trees on finer time scales from those on coarser time
+scales. We provide several baselines on these tasks, some based on established
+approaches from cosmological modeling and others rooted in machine learning.
+For the latter, we study different approaches -- from simple linear models that
+are minimally constrained by symmetries to much larger and more
+computationally-demanding models in deep learning, such as graph neural
+networks. We find that least-squares fits with a handful of invariant features
+sometimes outperform deep architectures with many more parameters and far
+longer training times. Still there remains tremendous potential to improve
+these baselines by combining machine learning and cosmology to fully exploit
+the data. CosmoBench sets the stage for bridging cosmology and geometric deep
+learning at scale. We invite the community to push the frontier of scientific
+discovery by engaging with this dataset, available at
+https://cosmobench.streamlit.app</p></br><a href="http://arxiv.org/pdf/2507.05060v1"><h2>A COMPASS to Model Comparison and Simulation-Based Inference in Galactic
+  Chemical Evolution</h2></a>Authors:  Berkay Gunes, Sven Buder, Tobias Buck</br>Comments: Accepted at the 2025 Workshop on Machine Learning for Astrophysics</br>Primary Category: astro-ph.GA</br>All Categories: astro-ph.GA, astro-ph.IM, cs.LG, physics.comp-ph, physics.data-an</br><p>We present \texttt{COMPASS}, a novel simulation-based inference framework
+that combines score-based diffusion models with transformer architectures to
+jointly perform parameter estimation and Bayesian model comparison across
+competing Galactic Chemical Evolution (GCE) models. \texttt{COMPASS} handles
+high-dimensional, incomplete, and variable-size stellar abundance datasets. %
+Applied to high-precision elemental abundance measurements, \texttt{COMPASS}
+evaluates 40 combinations of nucleosynthetic yield tables. The model strongly
+favours Asymptotic Giant Branch yields from NuGrid and core-collapse SN yields
+used in the IllustrisTNG simulation, achieving near-unity cumulative posterior
+probability. Using the preferred model, we infer a steep high-mass IMF slope
+and an elevated Supernova\,Ia normalization, consistent with prior solar
+neighbourhood studies but now derived from fully amortized Bayesian inference.
+% Our results demonstrate that modern SBI methods can robustly constrain
+uncertain physics in astrophysical simulators and enable principled model
+selection when analysing complex, simulation-based data.</p></br><a href="http://arxiv.org/pdf/2507.03760v1"><h2>Causal Evidence for the Primordiality of Colors in Trans-Neptunian
+  Objects</h2></a>Authors:  Benjamin L. Davis, Mohamad Ali-Dib, Yujia Zheng, Zehao Jin, Kun Zhang, Andrea Valerio Macciò</br>Comments: Accepted to ML4Astro 2025 (Machine Learning for Astrophysics workshop
+  at ICML 2025)</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, cs.LG</br><p>The origins of the colors of Trans-Neptunian Objects (TNOs) represent a
+crucial unresolved question, central to understanding the history of our Solar
+System. Recent observational surveys have revealed correlations between the
+eccentricity and inclination of TNOs and their colors. This has rekindled the
+long-standing debate on whether these colors reflect the conditions of TNO
+formation or their subsequent collisional evolution. In this study, we address
+this question with 98.7% certainty, using a model-agnostic, data-driven
+approach based on causal graphs. First, as a sanity check, we demonstrate how
+our model can replicate the currently accepted paradigms of TNOs' dynamical
+history, blindly and without any orbital modeling or physics-based assumptions.
+In fact, our causal model (with no knowledge of the existence of Neptune)
+predicts the existence of an unknown perturbing body, i.e., Neptune. We then
+show how this model predicts, with high certainty, that the color of TNOs is
+the root cause of their inclination distribution, rather than the other way
+around. This strongly suggests that the colors of TNOs reflect an underlying
+dynamical property, most likely their formation location. Moreover, our causal
+model excludes formation scenarios that invoke substantial color modification
+by subsequent irradiation. We therefore conclude that the colors of TNOs are
+predominantly primordial.</p></br><a href="http://arxiv.org/pdf/2507.03094v1"><h2>Neural Dynamic Modes: Computational Imaging of Dynamical Systems from
+  Sparse Observations</h2></a>Authors:  Ali SaraerToosi, Renbo Tu, Kamyar Azizzadenesheli, Aviad Levis</br>Comments: 24 pages, 18 figures</br>Primary Category: cs.LG</br>All Categories: cs.LG, astro-ph.IM, cs.CV, physics.ao-ph, 68T45, 68T07, I.4.8; I.2.6</br><p>Dynamical systems are ubiquitous within science and engineering, from
+turbulent flow across aircraft wings to structural variability of proteins.
+Although some systems are well understood and simulated, scientific imaging
+often confronts never-before-seen dynamics observed through indirect, noisy,
+and highly sparse measurements. We present NeuralDMD, a model-free framework
+that combines neural implicit representations with Dynamic Mode Decomposition
+(DMD) to reconstruct continuous spatio-temporal dynamics from such
+measurements. The expressiveness of neural representations enables capturing
+complex spatial structures, while the linear dynamical modes of DMD introduce
+an inductive bias that guides training and supports stable, low-dimensional
+representations and forecasting. We validate NeuralDMD on two real-world
+problems: reconstructing near-surface wind-speed fields over North America from
+sparse station observations, and recovering the evolution of plasma near the
+Galactic-center black hole, Sgr A*. In both cases, NeuralDMD outperforms
+established baselines, demonstrating its potential as a general tool for
+imaging dynamical systems across geoscience, astronomy, and beyond.</p></br>
