@@ -1,5 +1,5 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202508022000+TO+202508082000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, cs.AI, stat.*, physics.data-an staritng 202508022000 and ending 202508082000</h1>Feed last updated: 2025-08-08T00:00:00-04:00<a href="http://arxiv.org/pdf/2508.04982v1"><h2>Supervised Machine Learning Methods with Uncertainty Quantification for
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202508052000+TO+202508112000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on stat.*, cs.LG, physics.data-an, cs.AI staritng 202508052000 and ending 202508112000</h1>Feed last updated: 2025-08-11T00:00:00-04:00<a href="http://arxiv.org/pdf/2508.04982v1"><h2>Supervised Machine Learning Methods with Uncertainty Quantification for
   Exoplanet Atmospheric Retrievals from Transmission Spectroscopy</h2></a>Authors:  Roy T. Forestano, Konstantin T. Matchev, Katia Matcheva, Eyup B. Unlu</br>Comments: 51 pages, 26 figures, Submitted to AAS Journals</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.LG, physics.data-an</br><p>Standard Bayesian retrievals for exoplanet atmospheric parameters from
 transmission spectroscopy, while well understood and widely used, are generally
 computationally expensive. In the era of the JWST and other upcoming
@@ -16,42 +16,53 @@ different preprocessing methods of the training data on the model performance.
 We quantify the model uncertainties across the entire dynamical range of
 planetary parameters. The best performing combination of ML model and
 preprocessing scheme is validated on a the case study of JWST observation of
-WASP-39b.</p></br><a href="http://arxiv.org/pdf/2508.03661v1"><h2>Automated Algorithmic Discovery for Gravitational-Wave Detection Guided
-  by LLM-Informed Evolutionary Monte Carlo Tree Search</h2></a>Authors:  He Wang, Liang Zeng</br>Comments: 89 pages (37 main), 6+6 figures, 1 table. Initial submission; subject
-  to revision</br>Primary Category: cs.AI</br>All Categories: cs.AI, astro-ph.HE, astro-ph.IM, gr-qc</br><p>Computational scientific discovery increasingly relies on algorithms to
-process complex data and identify meaningful patterns - yet faces persistent
-challenges in gravitational-wave signal identification. While existing
-algorithmic approaches like matched filtering (MF) and deep neural networks
-(DNNs) have achieved partial success, their limitations directly stem from
-fundamental limitations: MF's excessive computational demands arise from its
-reliance on predefined theoretical waveform templates, while DNNs' black-box
-architectures obscure decision logic and introduce hidden biases. We propose
-Evolutionary Monte Carlo Tree Search (Evo-MCTS), a framework that addresses
-these limitations through systematic algorithm space exploration guided by
-domain-aware physical constraints. Our approach combines tree-structured search
-with evolutionary optimization and large language model heuristics to create
-interpretable algorithmic solutions. Our Evo-MCTS framework demonstrates
-substantial improvements, achieving a 20.2\% improvement over state-of-the-art
-gravitational wave detection algorithms on the MLGWSC-1 benchmark dataset.
-High-performing algorithm variants consistently exceed thresholds. The
-framework generates human-interpretable algorithmic pathways that reveal
-distinct performance patterns. Beyond performance improvements, our framework
-discovers novel algorithmic combinations, thereby establishing a transferable
-methodology for automated algorithmic discovery across computational science
-domains.</p></br><a href="http://arxiv.org/pdf/2508.02602v1"><h2>Trustworthy scientific inference for inverse problems with generative
-  models</h2></a>Authors:  James Carzon, Luca Masserano, Joshua D. Ingram, Alex Shen, Antonio Carlos Herling Ribeiro Junior, Tommaso Dorigo, Michele Doro, Joshua S. Speagle, Rafael Izbicki, Ann B. Lee</br>Comments: No comment found</br>Primary Category: stat.ML</br>All Categories: stat.ML, astro-ph.IM, cs.LG, stat.AP, stat.ME</br><p>Generative artificial intelligence (AI) excels at producing complex data
-structures (text, images, videos) by learning patterns from training examples.
-Across scientific disciplines, researchers are now applying generative models
-to ``inverse problems'' to infer hidden parameters from observed data. While
-these methods can handle intractable models and large-scale studies, they can
-also produce biased or overconfident conclusions. We present a solution with
-Frequentist-Bayes (FreB), a mathematically rigorous protocol that reshapes
-AI-generated probability distributions into confidence regions that
-consistently include true parameters with the expected probability, while
-achieving minimum size when training and target data align. We demonstrate
-FreB's effectiveness by tackling diverse case studies in the physical sciences:
-identifying unknown sources under dataset shift, reconciling competing
-theoretical models, and mitigating selection bias and systematics in
-observational studies. By providing validity guarantees with interpretable
-diagnostics, FreB enables trustworthy scientific inference across fields where
-direct likelihood evaluation remains impossible or prohibitively expensive.</p></br>
+WASP-39b.</p></br><a href="http://arxiv.org/pdf/2508.05876v1"><h2>A Markov Decision Process Framework for Early Maneuver Decisions in
+  Satellite Collision Avoidance</h2></a>Authors:  Francesca Ferrara, Lander W. Schillinger Arana, Florian Dörfler, Sarah H. Q. Li</br>Comments: 16 pages, 13 figures, submitted to the 2025 Astrodynamics Specialist
+  Conference</br>Primary Category: cs.LG</br>All Categories: cs.LG, astro-ph.EP, astro-ph.IM, cs.ET</br><p>This work presents a Markov decision process (MDP) framework to model
+decision-making for collision avoidance maneuver (CAM) and a reinforcement
+learning policy gradient (RL-PG) algorithm to train an autonomous guidance
+policy using historic CAM data. In addition to maintaining acceptable collision
+risks, this approach seeks to minimize the average fuel consumption of CAMs by
+making early maneuver decisions. We model CAM as a continuous state, discrete
+action and finite horizon MDP, where the critical decision is determining when
+to initiate the maneuver. The MDP model also incorporates analytical models for
+conjunction risk, propellant consumption, and transit orbit geometry. The
+Markov policy effectively trades-off maneuver delay-which improves the
+reliability of conjunction risk indicators-with propellant consumption-which
+increases with decreasing maneuver time. Using historical data of tracked
+conjunction events, we verify this framework and conduct an extensive ablation
+study on the hyper-parameters used within the MDP. On synthetic conjunction
+events, the trained policy significantly minimizes both the overall and average
+propellant consumption per CAM when compared to a conventional cut-off policy
+that initiates maneuvers 24 hours before the time of closest approach (TCA). On
+historical conjunction events, the trained policy consumes more propellant
+overall but reduces the average propellant consumption per CAM. For both
+historical and synthetic conjunction events, the trained policy achieves equal
+if not higher overall collision risk guarantees.</p></br><a href="http://arxiv.org/pdf/2508.05728v1"><h2>CLAPP: The CLASS LLM Agent for Pair Programming</h2></a>Authors:  Santiago Casas, Christian Fidler, Boris Bolliet, Francisco Villaescusa-Navarro, Julien Lesgourgues</br>Comments: Code: https://github.com/santiagocasas/clapp, Streamlit app:
+  https://classclapp.streamlit.app</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.CO, cs.AI, cs.MA</br><p>We introduce CLAPP (CLASS LLM Agent for Pair Programming), an interactive AI
+assistant designed to support researchers working with the Einstein-Boltzmann
+solver CLASS. CLAPP leverages large language models (LLMs) and domain-specific
+retrieval to provide conversational coding support for CLASS-answering
+questions, generating code, debugging errors, and producing plots. Its
+architecture combines multi-agent LLM orchestration, semantic search across
+CLASS documentation, and a live Python execution environment. Deployed as a
+user-friendly web application, CLAPP lowers the entry barrier for scientists
+unfamiliar with AI tools and enables more productive human-AI collaboration in
+computational and numerical cosmology. The app is available at
+https://classclapp.streamlit.app</p></br><a href="http://arxiv.org/pdf/2508.05744v1"><h2>Detecting Model Misspecification in Cosmology with Scale-Dependent
+  Normalizing Flows</h2></a>Authors:  Aizhan Akhmetzhanova, Carolina Cuesta-Lazaro, Siddharth Mishra-Sharma</br>Comments: 14 + 5 pages, 6 + 4 figures</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, astro-ph.IM, cs.LG</br><p>Current and upcoming cosmological surveys will produce unprecedented amounts
+of high-dimensional data, which require complex high-fidelity forward
+simulations to accurately model both physical processes and systematic effects
+which describe the data generation process. However, validating whether our
+theoretical models accurately describe the observed datasets remains a
+fundamental challenge. An additional complexity to this task comes from
+choosing appropriate representations of the data which retain all the relevant
+cosmological information, while reducing the dimensionality of the original
+dataset. In this work we present a novel framework combining scale-dependent
+neural summary statistics with normalizing flows to detect model
+misspecification in cosmological simulations through Bayesian evidence
+estimation. By conditioning our neural network models for data compression and
+evidence estimation on the smoothing scale, we systematically identify where
+theoretical models break down in a data-driven manner. We demonstrate a first
+application to our approach using matter and gas density fields from three
+CAMELS simulation suites with different subgrid physics implementations.</p></br>
