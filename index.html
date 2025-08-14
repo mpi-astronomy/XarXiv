@@ -1,27 +1,54 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202508072000+TO+202508132000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, cs.AI, stat.*, physics.data-an staritng 202508072000 and ending 202508132000</h1>Feed last updated: 2025-08-13T00:00:00-04:00<a href="http://arxiv.org/pdf/2508.05876v1"><h2>A Markov Decision Process Framework for Early Maneuver Decisions in
-  Satellite Collision Avoidance</h2></a>Authors:  Francesca Ferrara, Lander W. Schillinger Arana, Florian Dörfler, Sarah H. Q. Li</br>Comments: 16 pages, 13 figures, submitted to the 2025 Astrodynamics Specialist
-  Conference</br>Primary Category: cs.LG</br>All Categories: cs.LG, astro-ph.EP, astro-ph.IM, cs.ET</br><p>This work presents a Markov decision process (MDP) framework to model
-decision-making for collision avoidance maneuver (CAM) and a reinforcement
-learning policy gradient (RL-PG) algorithm to train an autonomous guidance
-policy using historic CAM data. In addition to maintaining acceptable collision
-risks, this approach seeks to minimize the average fuel consumption of CAMs by
-making early maneuver decisions. We model CAM as a continuous state, discrete
-action and finite horizon MDP, where the critical decision is determining when
-to initiate the maneuver. The MDP model also incorporates analytical models for
-conjunction risk, propellant consumption, and transit orbit geometry. The
-Markov policy effectively trades-off maneuver delay-which improves the
-reliability of conjunction risk indicators-with propellant consumption-which
-increases with decreasing maneuver time. Using historical data of tracked
-conjunction events, we verify this framework and conduct an extensive ablation
-study on the hyper-parameters used within the MDP. On synthetic conjunction
-events, the trained policy significantly minimizes both the overall and average
-propellant consumption per CAM when compared to a conventional cut-off policy
-that initiates maneuvers 24 hours before the time of closest approach (TCA). On
-historical conjunction events, the trained policy consumes more propellant
-overall but reduces the average propellant consumption per CAM. For both
-historical and synthetic conjunction events, the trained policy achieves equal
-if not higher overall collision risk guarantees.</p></br><a href="http://arxiv.org/pdf/2508.07065v1"><h2>Reconstruction of Solar EUV Irradiance Using CaII K Images and SOHO/SEM
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202508082000+TO+202508142000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on stat.*, cs.LG, cs.AI, physics.data-an staritng 202508082000 and ending 202508142000</h1>Feed last updated: 2025-08-14T00:00:00-04:00<a href="http://arxiv.org/pdf/2508.09370v1"><h2>Classifying Cool Dwarfs: Comprehensive Spectral Typing of Field and
+  Peculiar Dwarfs Using Machine Learning</h2></a>Authors:  Tianxing Zhou, Christopher A. Theissen, S. Jean Feeser, William M. J. Best, Adam J. Burgasser, Kelle L. Cruz, Lexu Zhao</br>Comments: 35 pages, 24 figures, 9 tables, accepted for publication in The
+  Astrophysical Journal</br>Primary Category: astro-ph.SR</br>All Categories: astro-ph.SR, astro-ph.EP, astro-ph.GA, astro-ph.IM, cs.LG</br><p>Low-mass stars and brown dwarfs -- spectral types (SpTs) M0 and later -- play
+a significant role in studying stellar and substellar processes and
+demographics, reaching down to planetary-mass objects. Currently, the
+classification of these sources remains heavily reliant on visual inspection of
+spectral features, equivalent width measurements, or narrow-/wide-band spectral
+indices. Recent advances in machine learning (ML) methods offer automated
+approaches for spectral typing, which are becoming increasingly important as
+large spectroscopic surveys such as Gaia, SDSS, and SPHEREx generate datasets
+containing millions of spectra. We investigate the application of ML in
+spectral type classification on low-resolution (R $\sim$ 120) near-infrared
+spectra of M0--T9 dwarfs obtained with the SpeX instrument on the NASA Infrared
+Telescope Facility. We specifically aim to classify the gravity- and
+metallicity-dependent subclasses for late-type dwarfs. We used binned fluxes as
+input features and compared the efficacy of spectral type estimators built
+using Random Forest (RF), Support Vector Machine (SVM), and K-Nearest Neighbor
+(KNN) models. We tested the influence of different normalizations and analyzed
+the relative importance of different spectral regions for surface gravity and
+metallicity subclass classification. Our best-performing model (using KNN)
+classifies 95.5 $\pm$ 0.6% of sources to within $\pm$1 SpT, and assigns surface
+gravity and metallicity subclasses with 89.5 $\pm$ 0.9% accuracy. We test the
+dependence of signal-to-noise ratio on classification accuracy and find sources
+with SNR $\gtrsim$ 60 have $\gtrsim$ 95% accuracy. We also find that zy-band
+plays the most prominent role in the RF model, with FeH and TiO having the
+highest feature importance.</p></br><a href="http://arxiv.org/pdf/2508.09689v1"><h2>Machine Learning for Exoplanet Detection: A Comparative Analysis Using
+  Kepler Data</h2></a>Authors:  Reihaneh Karimi, Mahdiyar Mousavi-Sadr, Mohammad H. Zhoolideh Haghighi, Fatemeh S. Tabatabaei</br>Comments: 11 pages, 5 figures, 2 tables, Accepted for publication in Iranian
+  Journal of Astronomy and Astrophysics (IJAA)</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, physics.comp-ph, physics.data-an</br><p>The discovery of exoplanets has expanded our understanding of planetary
+systems and opened new avenues for astronomical research. In this study, we
+present a machine learning (ML) framework for exoplanet identification using a
+time-series photometric dataset from the Kepler Space Telescope, comprising
+3,198 flux measurements across 5,074 stars. We investigate the performance of
+four supervised classification algorithms, namely Random Forest, k-Nearest
+Neighbors (KNN), Decision Tree, and Logistic Regression, using a comprehensive
+set of evaluation metrics such as accuracy, precision, recall, F1-score, Area
+Under the Receiver Operating Characteristic Curve (AUC-ROC), confusion
+matrices, and learning curves. Among the models, Random Forest achieves the
+highest accuracy (99.8\%) and near-perfect F1-scores, demonstrating superior
+generalization and robustness. KNN also performs strongly, achieving 99.3\%
+accuracy, while Decision Tree demonstrates moderate performance with 97.1\%
+accuracy, and Logistic Regression trails behind with the lowest accuracy and
+generalization at 95.8\%. Notably, the application of the Synthetic Minority
+Over-sampling Technique (SMOTE) significantly improves performance across all
+models by addressing class imbalance. These findings underscore the
+effectiveness of ensemble-based machine learning techniques, particularly
+Random Forest, in handling large volumes of photometric data for automated
+exoplanet detection. This approach holds significant potential for
+implementation at ground-based facilities, such as the Iranian National
+Observatory (INO), where such extensive and precise datasets can further
+advance exoplanet discovery and characterization efforts.</p></br><a href="http://arxiv.org/pdf/2508.07065v1"><h2>Reconstruction of Solar EUV Irradiance Using CaII K Images and SOHO/SEM
   Data with Bayesian Deep Learning and Uncertainty Quantification</h2></a>Authors:  Haodi Jiang, Qin Li, Jason T. L. Wang, Haimin Wang, Serena Criscuoli</br>Comments: 18 pages, 10 figures</br>Primary Category: astro-ph.SR</br>All Categories: astro-ph.SR, astro-ph.IM, cs.LG</br><p>Solar extreme ultraviolet (EUV) irradiance plays a crucial role in heating
 the Earth's ionosphere, thermosphere, and mesosphere, affecting atmospheric
 dynamics over varying time scales. Although significant effort has been spent
