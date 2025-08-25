@@ -1,5 +1,44 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202508162000+TO+202508222000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, cs.AI, stat.*, physics.data-an staritng 202508162000 and ending 202508222000</h1>Feed last updated: 2025-08-22T00:00:00-04:00<a href="http://arxiv.org/pdf/2508.15106v1"><h2>Enhanced Predictive Modeling for Hazardous Near-Earth Object Detection:
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202508192000+TO+202508252000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.LG, stat.*, physics.data-an, cs.AI staritng 202508192000 and ending 202508252000</h1>Feed last updated: 2025-08-25T00:00:00-04:00<a href="http://arxiv.org/pdf/2508.16114v1"><h2>Neural-Network Chemical Emulator for First-Star Formation: Robust
+  Iterative Predictions over a Wide Density Range</h2></a>Authors:  Sojun Ono, Kazuyuki Sugimura</br>Comments: 18 pages, 7 figures, Submitted to ApJ</br>Primary Category: astro-ph.GA</br>All Categories: astro-ph.GA, astro-ph.IM, astro-ph.SR, cs.LG</br><p>We present a neural-network emulator for the thermal and chemical evolution
+in Population~III star formation. The emulator accurately reproduces the
+thermochemical evolution over a wide density range spanning 21 orders of
+magnitude (10$^{-3}$-10$^{18}$ cm$^{-3}$), tracking six primordial species: H,
+H$_2$, e$^{-}$, H$^{+}$, H$^{-}$, and H$_2^{+}$. To handle the broad dynamic
+range, we partition the density range into five subregions and train separate
+deep operator networks (DeepONets) in each region. When applied to randomly
+sampled thermochemical states, the emulator achieves relative errors below 10%
+in over 90% of cases for both temperature and chemical abundances (except for
+the rare species H$_2^{+}$). The emulator is roughly ten times faster on a CPU
+and more than 1000 times faster for batched predictions on a GPU, compared with
+conventional numerical integration. Furthermore, to ensure robust predictions
+under many iterations, we introduce a novel timescale-based update method,
+where a short-timestep update of each variable is computed by rescaling the
+predicted change over a longer timestep equal to its characteristic variation
+timescale. In one-zone collapse calculations, the results from the
+timescale-based method agree well with traditional numerical integration even
+with many iterations at a timestep as short as 10$^{-4}$ of the free-fall time.
+This proof-of-concept study suggests the potential for neural network-based
+chemical emulators to accelerate hydrodynamic simulations of star formation.</p></br><a href="http://arxiv.org/pdf/2508.15899v1"><h2>CIGaRS I: Combined simulation-based inference from SNae Ia and host
+  photometry</h2></a>Authors:  Konstantin Karchev, Roberto Trotta, Raul Jimenez</br>Comments: submitted to Nature Astronomy; 8 pages, 6 figures + supplementary
+  material</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, astro-ph.GA, astro-ph.IM, cs.LG</br><p>Using type Ia supernovae (SNae Ia) as cosmological probes requires empirical
+corrections, which correlate with their host environment. We present a unified
+Bayesian hierarchical model designed to infer, from purely photometric
+observations, the intrinsic dependence of SN Ia brightness on progenitor
+properties (metallicity & age), the delay-time distribution (DTD) that governs
+their rate as a function of age, and cosmology, as well as the redshifts of all
+hosts. The model incorporates physics-based prescriptions for star formation
+and chemical evolution from Prospector-beta, dust extinction of both galaxy and
+SN light, and observational selection effects.
+  We show with simulations that intrinsic dependences on metallicity and age
+have distinct observational signatures, with metallicity mimicking the
+well-known step of SN Ia magnitudes across a host stellar mass of $\approx
+10^{10} M_{\odot}$. We then demonstrate neural simulation-based inference of
+all model parameters from mock observations of ~16 000 SNae Ia and their hosts
+up to redshift 0.9. Our joint physics-based approach delivers robust and
+precise photometric redshifts (<0.01 median scatter) and improved cosmological
+constraints, unlocking the full power of photometric data and paving the way
+for an end-to-end simulation-based analysis pipeline in the LSST era.</p></br><a href="http://arxiv.org/pdf/2508.15106v1"><h2>Enhanced Predictive Modeling for Hazardous Near-Earth Object Detection:
   A Comparative Analysis of Advanced Resampling Strategies and Machine Learning
   Algorithms in Planetary Risk Assessment</h2></a>Authors:  Sunkalp Chandra</br>Comments: No comment found</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.AI, cs.LG</br><p>This study evaluates the performance of several machine learning models for
 predicting hazardous near-Earth objects (NEOs) through a binary classification
@@ -19,22 +58,4 @@ power of ensemble methods for high precision and recall and further point out
 the importance of tailored model selection with regard to dataset
 characteristics and chosen evaluation metrics. Future research could focus on
 the optimization of hyperparameters with advanced features engineering to
-further the accuracy and robustness of the model on NEO hazard predictions.</p></br><a href="http://arxiv.org/pdf/2508.14107v1"><h2>SuryaBench: Benchmark Dataset for Advancing Machine Learning in
-  Heliophysics and Space Weather Prediction</h2></a>Authors:  Sujit Roy, Dinesha V. Hegde, Johannes Schmude, Amy Lin, Vishal Gaur, Rohit Lal, Kshitiz Mandal, Talwinder Singh, Andrés Muñoz-Jaramillo, Kang Yang, Chetraj Pandey, Jinsu Hong, Berkay Aydin, Ryan McGranaghan, Spiridon Kasapis, Vishal Upendran, Shah Bahauddin, Daniel da Silva, Marcus Freitag, Iksha Gurung, Nikolai Pogorelov, Campbell Watson, Manil Maskey, Juan Bernabe-Moreno, Rahul Ramachandran</br>Comments: No comment found</br>Primary Category: astro-ph.SR</br>All Categories: astro-ph.SR, astro-ph.IM, cs.AI</br><p>This paper introduces a high resolution, machine learning-ready heliophysics
-dataset derived from NASA's Solar Dynamics Observatory (SDO), specifically
-designed to advance machine learning (ML) applications in solar physics and
-space weather forecasting. The dataset includes processed imagery from the
-Atmospheric Imaging Assembly (AIA) and Helioseismic and Magnetic Imager (HMI),
-spanning a solar cycle from May 2010 to July 2024. To ensure suitability for ML
-tasks, the data has been preprocessed, including correction of spacecraft roll
-angles, orbital adjustments, exposure normalization, and degradation
-compensation. We also provide auxiliary application benchmark datasets
-complementing the core SDO dataset. These provide benchmark applications for
-central heliophysics and space weather tasks such as active region
-segmentation, active region emergence forecasting, coronal field extrapolation,
-solar flare prediction, solar EUV spectra prediction, and solar wind speed
-estimation. By establishing a unified, standardized data collection, this
-dataset aims to facilitate benchmarking, enhance reproducibility, and
-accelerate the development of AI-driven models for critical space weather
-prediction tasks, bridging gaps between solar physics, machine learning, and
-operational forecasting.</p></br>
+further the accuracy and robustness of the model on NEO hazard predictions.</p></br>
