@@ -1,5 +1,5 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202510152000+TO+202510212000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, stat.*, physics.data-an, cs.AI staritng 202510152000 and ending 202510212000</h1>Feed last updated: 2025-10-21T00:00:00-04:00<a href="http://arxiv.org/pdf/2510.17459v1"><h2>Estimating Orbital Parameters of Direct Imaging Exoplanet Using Neural
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202510162000+TO+202510222000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on physics.data-an, cs.LG, cs.AI, stat.* staritng 202510162000 and ending 202510222000</h1>Feed last updated: 2025-10-22T00:00:00-04:00<a href="http://arxiv.org/pdf/2510.17459v1"><h2>Estimating Orbital Parameters of Direct Imaging Exoplanet Using Neural
   Network</h2></a>Authors:  Bo Liang, Hanlin Song, Chang Liu, Tianyu Zhao, Yuxiang Xu, Zihao Xiao, Manjia Liang, Minghui Du, Wei-Liang Qian, Li-e Qiang, Peng Xu, Ziren Luo</br>Comments: No comment found</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.GA, cs.LG</br><p>In this work, we propose a new flow-matching Markov chain Monte Carlo
 (FM-MCMC) algorithm for estimating the orbital parameters of exoplanetary
 systems, especially for those only one exoplanet is involved. Compared to
@@ -34,70 +34,22 @@ of different detector configurations, and the ability of making fast yet
 accurate estimations of the posteriors is an important step forward. We also
 introduce version \texttt{1.0} of the public \texttt{GWDALI} code, which
 incorporates automatic differentiation, modern waveforms and an optimized
-parameter decomposition.</p></br><a href="http://arxiv.org/pdf/2510.15116v1"><h2>Polarization based direction of arrival estimation using a radio
-  interferometric array</h2></a>Authors:  Sarod Yatawatta</br>Comments: No comment found</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG</br><p>Direction of arrival (DOA) estimation is mostly performed using specialized
-arrays that have carefully designed receiver spacing and layouts to match the
-operating frequency range. In contrast, radio interferometric arrays are
-designed to optimally sample the Fourier space data for making high quality
-images of the sky.
-  Therefore, using existing radio interferometric arrays (with arbitrary
-geometry and wide frequency variation) for DOA estimation is practically
-infeasible except by using images made by such interferometers. In this paper,
-we focus on low cost DOA estimation without imaging, using a subset of a radio
-interferometric array, using a fraction of the data collected by the full
-array, and, enabling early determination of DOAs. The proposed method is
-suitable for transient and low duty cycle source detection. Moreover, the
-proposed method is an ideal follow-up step to online radio frequency
-interference (RFI) mitigation, enabling the early estimation of the DOA of the
-detected RFI.</p></br><a href="http://arxiv.org/pdf/2510.14102v1"><h2>Extracting latent representations from X-ray spectra. Classification,
-  regression, and accretion signatures of Chandra sources</h2></a>Authors:  Nicolò Oreste Pinciroli Vago, Juan Rafael Martínez-Galarza, Roberta Amato</br>Comments: No comment found</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.AI, cs.LG</br><p>The study of X-ray spectra is crucial to understanding the physical nature of
-astrophysical sources. Machine learning methods can extract compact and
-informative representations of data from large datasets. The Chandra Source
-Catalog (CSC) provides a rich archive of X-ray spectral data, which remains
-largely underexplored in this context. This work aims to develop a compact and
-physically meaningful representation of Chandra X-ray spectra using deep
-learning. To verify that the learned representation captures relevant
-information, we evaluate it through classification, regression, and
-interpretability analyses. We use a transformer-based autoencoder to compress
-X-ray spectra. The input spectra, drawn from the CSC, include only
-high-significance detections. Astrophysical source types and physical summary
-statistics are compiled from external catalogs. We evaluate the learned
-representation in terms of spectral reconstruction accuracy, clustering
-performance on 8 known astrophysical source classes, and correlation with
-physical quantities such as hardness ratios and hydrogen column density
-($N_H$). The autoencoder accurately reconstructs spectra with 8 latent
-variables. Clustering in the latent space yields a balanced classification
-accuracy of $\sim$40% across the 8 source classes, increasing to $\sim$69% when
-restricted to AGNs and stellar-mass compact objects exclusively. Moreover,
-latent features correlate with non-linear combinations of spectral fluxes,
-suggesting that the compressed representation encodes physically relevant
-information. The proposed autoencoder-based pipeline is a powerful tool for the
-representation and interpretation of X-ray spectra, providing a compact latent
-space that supports both classification and the estimation of physical
-properties. This work demonstrates the potential of deep learning for spectral
-studies and uncovering new patterns in X-ray data.</p></br><a href="http://arxiv.org/pdf/2510.15198v1"><h2>HyperAIRI: a plug-and-play algorithm for precise hyperspectral image
-  reconstruction in radio interferometry</h2></a>Authors:  Chao Tang, Arwa Dabbech, Adrian Jackson, Yves Wiaux</br>Comments: 18 pages, 10 figures, submitted to MNRAS</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG, eess.IV</br><p>The next-generation radio-interferometric (RI) telescopes require imaging
-algorithms capable of forming high-resolution high-dynamic-range images from
-large data volumes spanning wide frequency bands. Recently, AIRI, a
-plug-and-play (PnP) approach taking the forward-backward algorithmic structure
-(FB), has demonstrated state-of-the-art performance in monochromatic RI imaging
-by alternating a data-fidelity step with a regularisation step via learned
-denoisers. In this work, we introduce HyperAIRI, its hyperspectral extension,
-underpinned by learned hyperspectral denoisers enforcing a power-law spectral
-model. For each spectral channel, the HyperAIRI denoiser takes as input its
-current image estimate, alongside estimates of its two immediate neighbouring
-channels and the spectral index map, and provides as output its associated
-denoised image. To ensure convergence of HyperAIRI, the denoisers are trained
-with a Jacobian regularisation enforcing non-expansiveness. To accommodate
-varying dynamic ranges, we assemble a shelf of pre-trained denoisers, each
-tailored to a specific dynamic range. At each HyperAIRI iteration, the spectral
-channels of the target image cube are updated in parallel using
-dynamic-range-matched denoisers from the pre-trained shelf. The denoisers are
-also endowed with a spatial image faceting functionality, enabling scalability
-to varied image sizes. Additionally, we formally introduce Hyper-uSARA, a
-variant of the optimisation-based algorithm HyperSARA, promoting joint sparsity
-across spectral channels via the l2,1-norm, also adopting FB. We evaluate
-HyperAIRI's performance on simulated and real observations. We showcase its
-superior performance compared to its optimisation-based counterpart
-Hyper-uSARA, CLEAN's hyperspectral variant in WSClean, and the monochromatic
-imaging algorithms AIRI and uSARA.</p></br>
+parameter decomposition.</p></br><a href="http://arxiv.org/pdf/2510.18749v1"><h2>Symbolic Emulators for Cosmology: Accelerating Cosmological Analyses
+  Without Sacrificing Precision</h2></a>Authors:  Deaglan J. Bartlett, Shivam Pandey</br>Comments: 22 pages, 6 figures. Invited contribution for the Royal Society
+  Philosophical Transactions A special issue "Symbolic regression in the
+  physical sciences"</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, astro-ph.IM, cs.LG, cs.NE</br><p>In cosmology, emulators play a crucial role by providing fast and accurate
+predictions of complex physical models, enabling efficient exploration of
+high-dimensional parameter spaces that would be computationally prohibitive
+with direct numerical simulations. Symbolic emulators have emerged as promising
+alternatives to numerical approaches, delivering comparable accuracy with
+significantly faster evaluation times. While previous symbolic emulators were
+limited to relatively narrow prior ranges, we expand these to cover the
+parameter space relevant for current cosmological analyses. We introduce
+approximations to hypergeometric functions used for the $\Lambda$CDM comoving
+distance and linear growth factor which are accurate to better than 0.001% and
+0.05%, respectively, for all redshifts and for $\Omega_{\rm m} \in [0.1, 0.5]$.
+We show that integrating symbolic emulators into a Dark Energy Survey-like
+$3\times2$pt analysis produces cosmological constraints consistent with those
+obtained using standard numerical methods. Our symbolic emulators offer
+substantial improvements in speed and memory usage, demonstrating their
+practical potential for scalable, likelihood-based inference.</p></br>
