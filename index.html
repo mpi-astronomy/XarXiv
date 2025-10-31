@@ -1,5 +1,5 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202510242000+TO+202510302000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, physics.data-an, stat.*, cs.AI staritng 202510242000 and ending 202510302000</h1>Feed last updated: 2025-10-30T00:00:00-04:00<a href="http://arxiv.org/pdf/2510.22527v1"><h2>Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202510252000+TO+202510312000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.LG, cs.AI, stat.*, physics.data-an staritng 202510252000 and ending 202510312000</h1>Feed last updated: 2025-10-31T00:00:00-04:00<a href="http://arxiv.org/pdf/2510.22527v1"><h2>Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations
   for Galaxy Evolution and Cosmology</h2></a>Authors:  Morgan Himes, Samiksha Krishnamurthy, Andrew Lizarraga, Srinath Saikrishnan, Vikram Seenivasan, Jonathan Soriano, Ying Nian Wu, Tuan Do</br>Comments: 8 pages, 3 figures, 1 table, accepted to NeurIPS 2025 Workshop ML4PS</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.GA, cs.LG</br><p>Upcoming surveys will produce billions of galaxy images but comparatively few
 spectra, motivating models that learn cross-modal representations. We build a
 dataset of 134,533 galaxy images (HSC-PDR2) and spectra (DESI-DR1) and adapt a
@@ -31,24 +31,7 @@ than a supervised model trained on the same limited simulations. Principal
 component analysis of the extracted features further reveals semantically
 meaningful structures, suggesting that the model enables unsupervised
 segmentation of star-forming regions without the need for labeled data or
-fine-tuning.</p></br><a href="http://arxiv.org/pdf/2510.22190v1"><h2>RGC: a radio AGN classifier based on deep learning. I. A semi-supervised
-  model for the VLA images of bent radio AGNs</h2></a>Authors:  M. S. Hossain, M. S. H. Shahal, A. Khan, K. M. B. Asad, P. Saikia, F. Akter, A. Ali, M. A. Amin, A. Momen, M. Hasan, A. K. M. M. Rahman</br>Comments: 12 pages, 7 pages appendix, 6 figures, submitted to A&A</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.CO, cs.LG</br><p>Wide-angle tail (WAT) and narrow-angle tail (NAT) radio active galactic
-nuclei (RAGNs) are key tracers of dense environments in galaxy groups and
-clusters, yet no machine-learning classifier of bent RAGNs has been trained
-using both unlabeled data and purely visually inspected labels. We release the
-RGC Python package, which includes two newly preprocessed labeled datasets of
-639 WATs and NATs derived from a publicly available catalog of visually
-inspected sources, along with a semi-supervised RGC model that leverages 20,000
-unlabeled RAGNs. The two labeled datasets in RGC were preprocessed using PyBDSF
-which retains spurious sources, and Photutils which removes them. The RGC model
-integrates the self-supervised framework BYOL (Bootstrap YOur Latent) with the
-supervised E2CNN (E2-equivariant Convolutional Neural Network) to form a
-semi-supervised binary classifier. The RGC model, when trained and evaluated on
-a dataset devoid of spurious sources, reaches peak performance, attaining an
-accuracy of 88.88% along with F1-scores of 0.90 for WATs and 0.85 for NATs. The
-model's attention patterns amid class imbalance suggest that this work can
-serve as a stepping stone toward developing physics-informed foundation models
-capable of identifying a broad range of AGN physical properties.</p></br><a href="http://arxiv.org/pdf/2510.23702v1"><h2>In Search of the Unknown Unknowns: A Multi-Metric Distance Ensemble for
+fine-tuning.</p></br><a href="http://arxiv.org/pdf/2510.23702v1"><h2>In Search of the Unknown Unknowns: A Multi-Metric Distance Ensemble for
   Out of Distribution Anomaly Detection in Astronomical Surveys</h2></a>Authors:  Siddharth Chaini, Federica B. Bianco, Ashish Mahabal</br>Comments: 9 pages, 5 figures, Accepted at the 2025 Machine Learning and the
   Physical Sciences (ML4PS) workshop at NeurIPS</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG</br><p>Distance-based methods involve the computation of distance values between
 features and are a well-established paradigm in machine learning. In anomaly
@@ -86,7 +69,38 @@ Zoo decision tree, SAEs can identify interpretable features outside of this
 framework. SAE features also show stronger alignment than PCA with Galaxy Zoo
 labels. Although challenges in interpretability remain, SAEs provide a powerful
 engine for discovering astrophysical phenomena beyond the confines of
-human-defined classification.</p></br><a href="http://arxiv.org/pdf/2510.23330v1"><h2>The First Star-by-star $N$-body/Hydrodynamics Simulation of Our Galaxy
+human-defined classification.</p></br><a href="http://arxiv.org/pdf/2510.25774v1"><h2>Pulsar Detection with Deep Learning</h2></a>Authors:  Manideep Pendyala</br>Comments: 56 pages, My master's thesis</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG</br><p>Pulsar surveys generate millions of candidates per run, overwhelming manual
+inspection. This thesis builds a deep learning pipeline for radio pulsar
+candidate selection that fuses array-derived features with image diagnostics.
+From approximately 500 GB of Giant Metrewave Radio Telescope (GMRT) data, raw
+voltages are converted to filterbanks (SIGPROC), then de-dispersed and folded
+across trial dispersion measures (PRESTO) to produce approximately 32,000
+candidates. Each candidate yields four diagnostics--summed profile, time vs.
+phase, subbands vs. phase, and DM curve--represented as arrays and images. A
+baseline stacked model (ANNs for arrays + CNNs for images with
+logistic-regression fusion) reaches 68% accuracy. We then refine the CNN
+architecture and training (regularization, learning-rate scheduling, max-norm
+constraints) and mitigate class imbalance via targeted augmentation, including
+a GAN-based generator for the minority class. The enhanced CNN attains 87%
+accuracy; the final GAN+CNN system achieves 94% accuracy with balanced
+precision and recall on a held-out test set, while remaining lightweight enough
+for near--real-time triage. The results show that combining array and image
+channels improves separability over image-only approaches, and that modest
+generative augmentation substantially boosts minority (pulsar) recall. The
+methods are survey-agnostic and extensible to forthcoming high-throughput
+facilities.</p></br><a href="http://arxiv.org/pdf/2510.26593v1"><h2>Hybrid Physical-Neural Simulator for Fast Cosmological Hydrodynamics</h2></a>Authors:  Arne Thomsen, Tilman Tröster, François Lanusse</br>Comments: Accepted to the NeurIPS 2025 Workshop on Machine Learning and the
+  Physical Sciences</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, cs.LG</br><p>Cosmological field-level inference requires differentiable forward models
+that solve the challenging dynamics of gas and dark matter under hydrodynamics
+and gravity. We propose a hybrid approach where gravitational forces are
+computed using a differentiable particle-mesh solver, while the hydrodynamics
+are parametrized by a neural network that maps local quantities to an effective
+pressure field. We demonstrate that our method improves upon alternative
+approaches, such as an Enthalpy Gradient Descent baseline, both at the field
+and summary-statistic level. The approach is furthermore highly data efficient,
+with a single reference simulation of cosmological structure formation being
+sufficient to constrain the neural pressure model. This opens the door for
+future applications where the model is fit directly to observational data,
+rather than a training set of simulations.</p></br><a href="http://arxiv.org/pdf/2510.23330v1"><h2>The First Star-by-star $N$-body/Hydrodynamics Simulation of Our Galaxy
   Coupling with a Surrogate Model</h2></a>Authors:  Keiya Hirashima, Michiko S. Fujii, Takayuki R. Saitoh, Naoto Harada, Kentaro Nomura, Kohji Yoshikawa, Yutaka Hirai, Tetsuro Asano, Kana Moriwaki, Masaki Iwasawa, Takashi Okamoto, Junichiro Makino</br>Comments: 12 pages, 7 figures, 7 tables, IEEE/ACM Supercomputing Conference
   (SC25)</br>Primary Category: astro-ph.GA</br>All Categories: astro-ph.GA, cs.DC, cs.LG, physics.comp-ph</br><p>A major goal of computational astrophysics is to simulate the Milky Way
 Galaxy with sufficient resolution down to individual stars. However, the
