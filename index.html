@@ -1,94 +1,45 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202510252000+TO+202510312000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, cs.AI, stat.*, physics.data-an staritng 202510252000 and ending 202510312000</h1>Feed last updated: 2025-10-31T00:00:00-04:00<a href="http://arxiv.org/pdf/2510.22527v1"><h2>Multi-Modal Masked Autoencoders for Learning Image-Spectrum Associations
-  for Galaxy Evolution and Cosmology</h2></a>Authors:  Morgan Himes, Samiksha Krishnamurthy, Andrew Lizarraga, Srinath Saikrishnan, Vikram Seenivasan, Jonathan Soriano, Ying Nian Wu, Tuan Do</br>Comments: 8 pages, 3 figures, 1 table, accepted to NeurIPS 2025 Workshop ML4PS</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.GA, cs.LG</br><p>Upcoming surveys will produce billions of galaxy images but comparatively few
-spectra, motivating models that learn cross-modal representations. We build a
-dataset of 134,533 galaxy images (HSC-PDR2) and spectra (DESI-DR1) and adapt a
-Multi-Modal Masked Autoencoder (MMAE) to embed both images and spectra in a
-shared representation. The MMAE is a transformer-based architecture, which we
-train by masking 75% of the data and reconstructing missing image and spectral
-tokens. We use this model to test three applications: spectral and image
-reconstruction from heavily masked data and redshift regression from images
-alone. It recovers key physical features, such as galaxy shapes, atomic
-emission line peaks, and broad continuum slopes, though it struggles with fine
-image details and line strengths. For redshift regression, the MMAE performs
-comparably or better than prior multi-modal models in terms of prediction
-scatter even when missing spectra in testing. These results highlight both the
-potential and limitations of masked autoencoders in astrophysics and motivate
-extensions to additional modalities, such as text, for foundation models.</p></br><a href="http://arxiv.org/pdf/2510.24159v1"><h2>Self-supervised Synthetic Pretraining for Inference of Stellar Mass
-  Embedded in Dense Gas</h2></a>Authors:  Keiya Hirashima, Shingo Nozaki, Naoto Harada</br>Comments: 6 pages, 3 figures, 1 table, accepted for NeurIPS 2025 ML4PS workshop</br>Primary Category: astro-ph.GA</br>All Categories: astro-ph.GA, astro-ph.IM, cs.AI, cs.LG</br><p>Stellar mass is a fundamental quantity that determines the properties and
-evolution of stars. However, estimating stellar masses in star-forming regions
-is challenging because young stars are obscured by dense gas and the regions
-are highly inhomogeneous, making spherical dynamical estimates unreliable.
-Supervised machine learning could link such complex structures to stellar mass,
-but it requires large, high-quality labeled datasets from high-resolution
-magneto-hydrodynamical (MHD) simulations, which are computationally expensive.
-We address this by pretraining a vision transformer on one million synthetic
-fractal images using the self-supervised framework DINOv2, and then applying
-the frozen model to limited high-resolution MHD simulations. Our results
-demonstrate that synthetic pretraining improves frozen-feature regression
-stellar mass predictions, with the pretrained model performing slightly better
-than a supervised model trained on the same limited simulations. Principal
-component analysis of the extracted features further reveals semantically
-meaningful structures, suggesting that the model enables unsupervised
-segmentation of star-forming regions without the need for labeled data or
-fine-tuning.</p></br><a href="http://arxiv.org/pdf/2510.23702v1"><h2>In Search of the Unknown Unknowns: A Multi-Metric Distance Ensemble for
-  Out of Distribution Anomaly Detection in Astronomical Surveys</h2></a>Authors:  Siddharth Chaini, Federica B. Bianco, Ashish Mahabal</br>Comments: 9 pages, 5 figures, Accepted at the 2025 Machine Learning and the
-  Physical Sciences (ML4PS) workshop at NeurIPS</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG</br><p>Distance-based methods involve the computation of distance values between
-features and are a well-established paradigm in machine learning. In anomaly
-detection, anomalies are identified by their large distance from normal data
-points. However, the performance of these methods often hinges on a single,
-user-selected distance metric (e.g., Euclidean), which may not be optimal for
-the complex, high-dimensional feature spaces common in astronomy. Here, we
-introduce a novel anomaly detection method, Distance Multi-Metric Anomaly
-Detection (DiMMAD), which uses an ensemble of distance metrics to find
-novelties.
-  Using multiple distance metrics is effectively equivalent to using different
-geometries in the feature space. By using a robust ensemble of diverse distance
-metrics, we overcome the metric-selection problem, creating an anomaly score
-that is not reliant on any single definition of distance. We demonstrate this
-multi-metric approach as a tool for simple, interpretable scientific discovery
-on astronomical time series -- (1) with simulated data for the upcoming Vera C.
-Rubin Observatory Legacy Survey of Space and Time, and (2) real data from the
-Zwicky Transient Facility.
-  We find that DiMMAD excels at out-of-distribution anomaly detection --
-anomalies in the data that might be new classes -- and beats other
-state-of-the-art methods in the goal of maximizing the diversity of new classes
-discovered. For rare in-distribution anomaly detection, DiMMAD performs
-similarly to other methods, but may allow for improved interpretability. All
-our code is open source: DiMMAD is implemented within DistClassiPy:
-https://github.com/sidchaini/distclassipy/, while all code to reproduce the
-results of this paper is available here: https://github.com/sidchaini/dimmad/.</p></br><a href="http://arxiv.org/pdf/2510.23749v1"><h2>Re-envisioning Euclid Galaxy Morphology: Identifying and Interpreting
-  Features with Sparse Autoencoders</h2></a>Authors:  John F. Wu, Michael Walmsley</br>Comments: Accepted to NeurIPS Machine Learning and the Physical Sciences
-  Workshop</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG</br><p>Sparse Autoencoders (SAEs) can efficiently identify candidate monosemantic
-features from pretrained neural networks for galaxy morphology. We demonstrate
-this on Euclid Q1 images using both supervised (Zoobot) and new self-supervised
-(MAE) models. Our publicly released MAE achieves superhuman image
-reconstruction performance. While a Principal Component Analysis (PCA) on the
-supervised model primarily identifies features already aligned with the Galaxy
-Zoo decision tree, SAEs can identify interpretable features outside of this
-framework. SAE features also show stronger alignment than PCA with Galaxy Zoo
-labels. Although challenges in interpretability remain, SAEs provide a powerful
-engine for discovering astrophysical phenomena beyond the confines of
-human-defined classification.</p></br><a href="http://arxiv.org/pdf/2510.25774v1"><h2>Pulsar Detection with Deep Learning</h2></a>Authors:  Manideep Pendyala</br>Comments: 56 pages, My master's thesis</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG</br><p>Pulsar surveys generate millions of candidates per run, overwhelming manual
-inspection. This thesis builds a deep learning pipeline for radio pulsar
-candidate selection that fuses array-derived features with image diagnostics.
-From approximately 500 GB of Giant Metrewave Radio Telescope (GMRT) data, raw
-voltages are converted to filterbanks (SIGPROC), then de-dispersed and folded
-across trial dispersion measures (PRESTO) to produce approximately 32,000
-candidates. Each candidate yields four diagnostics--summed profile, time vs.
-phase, subbands vs. phase, and DM curve--represented as arrays and images. A
-baseline stacked model (ANNs for arrays + CNNs for images with
-logistic-regression fusion) reaches 68% accuracy. We then refine the CNN
-architecture and training (regularization, learning-rate scheduling, max-norm
-constraints) and mitigate class imbalance via targeted augmentation, including
-a GAN-based generator for the minority class. The enhanced CNN attains 87%
-accuracy; the final GAN+CNN system achieves 94% accuracy with balanced
-precision and recall on a held-out test set, while remaining lightweight enough
-for near--real-time triage. The results show that combining array and image
-channels improves separability over image-only approaches, and that modest
-generative augmentation substantially boosts minority (pulsar) recall. The
-methods are survey-agnostic and extensible to forthcoming high-throughput
-facilities.</p></br><a href="http://arxiv.org/pdf/2510.26593v1"><h2>Hybrid Physical-Neural Simulator for Fast Cosmological Hydrodynamics</h2></a>Authors:  Arne Thomsen, Tilman Tröster, François Lanusse</br>Comments: Accepted to the NeurIPS 2025 Workshop on Machine Learning and the
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202510282000+TO+202511032000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on physics.data-an, cs.LG, cs.AI, stat.* staritng 202510282000 and ending 202511032000</h1>Feed last updated: 2025-11-02T00:00:00-05:00<a href="http://arxiv.org/pdf/2510.27050v1"><h2>Accelerating Radiative Transfer for Planetary Atmospheres by Orders of
+  Magnitude with a Transformer-Based Machine Learning Model</h2></a>Authors:  Isaac Malsky, Tiffany Kataria, Natasha E. Batalha, Matthew Graham</br>Comments: No comment found</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.LG</br><p>Radiative transfer calculations are essential for modeling planetary
+atmospheres. However, standard methods are computationally demanding and impose
+accuracy-speed trade-offs. High computational costs force numerical
+simplifications in large models (e.g., General Circulation Models) that degrade
+the accuracy of the simulation. Radiative transfer calculations are an ideal
+candidate for machine learning emulation: fundamentally, it is a well-defined
+physical mapping from a static atmospheric profile to the resulting fluxes, and
+high-fidelity training data can be created from first principles calculations.
+We developed a radiative transfer emulator using an encoder-only transformer
+neural network architecture, trained on 1D profiles representative of
+solar-composition hot Jupiter atmospheres. Our emulator reproduced bolometric
+two-stream layer fluxes with mean test set errors of ~1% compared to the
+traditional method and achieved speedups of 100x. Emulating radiative transfer
+with machine learning opens up the possibility for faster and more accurate
+routines within planetary atmospheric models such as GCMs.</p></br><a href="http://arxiv.org/pdf/2510.27146v1"><h2>SERVIMON: AI-Driven Predictive Maintenance and Real-Time Monitoring for
+  Astronomical Observatories</h2></a>Authors:  Emilio Mastriani, Alessandro Costa, Federico Incardona, Kevin Munari, Sebastiano Spinello</br>Comments: Accepted for publication in IAU Symposium 397: Exploring the Universe
+  with Artificial Intelligence (UniversAI 2025), Cambridge University Press.
+  Editors: C. Sterken, J. Hearnshaw & D. Valls-Gabaud</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG</br><p>Objective: ServiMon is designed to offer a scalable and intelligent pipeline
+for data collection and auditing to monitor distributed astronomical systems
+such as the ASTRI Mini-Array. The system enhances quality control, predictive
+maintenance, and real-time anomaly detection for telescope operations. Methods:
+ServiMon integrates cloud-native technologies-including Prometheus, Grafana,
+Cassandra, Kafka, and InfluxDB-for telemetry collection and processing. It
+employs machine learning algorithms, notably Isolation Forest, to detect
+anomalies in Cassandra performance metrics. Key indicators such as read/write
+latency, throughput, and memory usage are continuously monitored, stored as
+time-series data, and preprocessed for feature engineering. Anomalies detected
+by the model are logged in InfluxDB v2 and accessed via Flux for real-time
+monitoring and visualization. Results: AI-based anomaly detection increases
+system resilience by identifying performance degradation at an early stage,
+minimizing downtime, and optimizing telescope operations. Additionally,
+ServiMon supports astrostatistical analysis by correlating telemetry with
+observational data, thus enhancing scientific data quality. AI-generated alerts
+also improve real-time monitoring, enabling proactive system management.
+Conclusion: ServiMon's scalable framework proves effective for predictive
+maintenance and real-time monitoring of astronomical infrastructures. By
+leveraging cloud and edge computing, it is adaptable to future large-scale
+experiments, optimizing both performance and cost. The combination of machine
+learning and big data analytics makes ServiMon a robust and flexible solution
+for modern and next-generation observational astronomy.</p></br><a href="http://arxiv.org/pdf/2510.26593v1"><h2>Hybrid Physical-Neural Simulator for Fast Cosmological Hydrodynamics</h2></a>Authors:  Arne Thomsen, Tilman Tröster, François Lanusse</br>Comments: Accepted to the NeurIPS 2025 Workshop on Machine Learning and the
   Physical Sciences</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, cs.LG</br><p>Cosmological field-level inference requires differentiable forward models
 that solve the challenging dynamics of gas and dark matter under hydrodynamics
 and gravity. We propose a hybrid approach where gravitational forces are
@@ -100,19 +51,4 @@ and summary-statistic level. The approach is furthermore highly data efficient,
 with a single reference simulation of cosmological structure formation being
 sufficient to constrain the neural pressure model. This opens the door for
 future applications where the model is fit directly to observational data,
-rather than a training set of simulations.</p></br><a href="http://arxiv.org/pdf/2510.23330v1"><h2>The First Star-by-star $N$-body/Hydrodynamics Simulation of Our Galaxy
-  Coupling with a Surrogate Model</h2></a>Authors:  Keiya Hirashima, Michiko S. Fujii, Takayuki R. Saitoh, Naoto Harada, Kentaro Nomura, Kohji Yoshikawa, Yutaka Hirai, Tetsuro Asano, Kana Moriwaki, Masaki Iwasawa, Takashi Okamoto, Junichiro Makino</br>Comments: 12 pages, 7 figures, 7 tables, IEEE/ACM Supercomputing Conference
-  (SC25)</br>Primary Category: astro-ph.GA</br>All Categories: astro-ph.GA, cs.DC, cs.LG, physics.comp-ph</br><p>A major goal of computational astrophysics is to simulate the Milky Way
-Galaxy with sufficient resolution down to individual stars. However, the
-scaling fails due to some small-scale, short-timescale phenomena, such as
-supernova explosions. We have developed a novel integration scheme of
-$N$-body/hydrodynamics simulations working with machine learning. This approach
-bypasses the short timesteps caused by supernova explosions using a surrogate
-model, thereby improving scalability. With this method, we reached 300 billion
-particles using 148,900 nodes, equivalent to 7,147,200 CPU cores, breaking
-through the billion-particle barrier currently faced by state-of-the-art
-simulations. This resolution allows us to perform the first star-by-star galaxy
-simulation, which resolves individual stars in the Milky Way Galaxy. The
-performance scales over $10^4$ CPU cores, an upper limit in the current
-state-of-the-art simulations using both A64FX and X86-64 processors and NVIDIA
-CUDA GPUs.</p></br>
+rather than a training set of simulations.</p></br>
