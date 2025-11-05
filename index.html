@@ -1,5 +1,38 @@
-search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202510292000+TO+202511042000]&start=0&max_results=5000
-<h1>New astro-ph.* submissions cross listed on cs.LG, cs.AI, stat.*, physics.data-an staritng 202510292000 and ending 202511042000</h1>Feed last updated: 2025-11-03T00:00:00-05:00<a href="http://arxiv.org/pdf/2510.27050v1"><h2>Accelerating Radiative Transfer for Planetary Atmospheres by Orders of
+search_query=cat:astro-ph.*+AND+lastUpdatedDate:[202510302000+TO+202511052000]&start=0&max_results=5000
+<h1>New astro-ph.* submissions cross listed on cs.LG, physics.data-an, stat.*, cs.AI staritng 202510302000 and ending 202511052000</h1>Feed last updated: 2025-11-04T00:00:00-05:00<a href="http://arxiv.org/pdf/2511.01958v1"><h2>Improving Bayesian inference in PTA data analysis: importance nested
+  sampling with Normalizing Flows</h2></a>Authors:  Eleonora Villa, Golam Mohiuddin Shaifullah, Andrea Possenti, Carmelita Carbone</br>Comments: 37 pages, 7 figures, 3 tables. Submitted to the Astronomy and
+  Computing special issue HPC in Cosmology and Astrophysics</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.CO, astro-ph.HE, cs.LG</br><p>We present a detailed study of Bayesian inference workflows for pulsar timing
+array data with a focus on enhancing efficiency, robustness and speed through
+the use of normalizing flow-based nested sampling. Building on the Enterprise
+framework, we integrate the i-nessai sampler and benchmark its performance on
+realistic, simulated datasets. We analyze its computational scaling and
+stability, and show that it achieves accurate posteriors and reliable evidence
+estimates with substantially reduced runtime, by up to three orders of
+magnitude depending on the dataset configuration, with respect to conventional
+single-core parallel-tempering MCMC analyses. These results highlight the
+potential of flow-based nested sampling to accelerate PTA analyses while
+preserving the quality of the inference.</p></br><a href="http://arxiv.org/pdf/2511.01959v1"><h2>Addressing prior dependence in hierarchical Bayesian modeling for PTA
+  data analysis II: Noise and SGWB inference through parameter decorrelation</h2></a>Authors:  Eleonora Villa, Luigi D'Amico, Aldo Barca, Fatima Modica Bittordo, Francesco Alì, Massimo Meneghetti, Luca Naso</br>Comments: 18 pages, 7 figures. Submitted to the Astronomy and Computing special
+  issue HPC in Cosmology and Astrophysics</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, astro-ph.CO, astro-ph.HE, cs.LG</br><p>Pulsar Timing Arrays provide a powerful framework to measure low-frequency
+gravitational waves, but accuracy and robustness of the results are challenged
+by complex noise processes that must be accurately modeled. Standard PTA
+analyses assign fixed uniform noise priors to each pulsar, an approach that can
+introduce systematic biases when combining the array. To overcome this
+limitation, we adopt a hierarchical Bayesian modeling strategy in which noise
+priors are parametrized by higher-level hyperparameters. We further address the
+challenge posed by the correlations between hyperparameters and physical noise
+parameters, focusing on those describing red noise and dispersion measure
+variations. To decorrelate these quantities, we introduce an orthogonal
+reparametrization of the hierarchical model implemented with Normalizing Flows.
+We also employ i-nessai, a flow-guided nested sampler, to efficiently explore
+the resulting higher-dimensional parameter space. We apply our method to a
+minimal 3-pulsar case study, performing a simultaneous inference of noise and
+SGWB parameters. Despite the limited dataset, the results consistently show
+that the hierarchical treatment constrains the noise parameters more tightly
+and partially alleviates the red-noise-SGWB degeneracy, while the orthogonal
+reparametrization further enhances parameter independence without affecting the
+correlations intrinsic to the power-law modeling of the physical processes
+involved.</p></br><a href="http://arxiv.org/pdf/2510.27050v1"><h2>Accelerating Radiative Transfer for Planetary Atmospheres by Orders of
   Magnitude with a Transformer-Based Machine Learning Model</h2></a>Authors:  Isaac Malsky, Tiffany Kataria, Natasha E. Batalha, Matthew Graham</br>Comments: No comment found</br>Primary Category: astro-ph.EP</br>All Categories: astro-ph.EP, astro-ph.IM, cs.LG</br><p>Radiative transfer calculations are essential for modeling planetary
 atmospheres. However, standard methods are computationally demanding and impose
 accuracy-speed trade-offs. High computational costs force numerical
@@ -14,7 +47,24 @@ solar-composition hot Jupiter atmospheres. Our emulator reproduced bolometric
 two-stream layer fluxes with mean test set errors of ~1% compared to the
 traditional method and achieved speedups of 100x. Emulating radiative transfer
 with machine learning opens up the possibility for faster and more accurate
-routines within planetary atmospheric models such as GCMs.</p></br><a href="http://arxiv.org/pdf/2510.27146v1"><h2>SERVIMON: AI-Driven Predictive Maintenance and Real-Time Monitoring for
+routines within planetary atmospheric models such as GCMs.</p></br><a href="http://arxiv.org/pdf/2511.01352v1"><h2>MiniFool -- Physics-Constraint-Aware Minimizer-Based Adversarial Attacks
+  in Deep Neural Networks</h2></a>Authors:  Lucie Flek, Oliver Janik, Philipp Alexander Jung, Akbar Karimi, Timo Saala, Alexander Schmidt, Matthias Schott, Philipp Soldin, Matthias Thiesmeyer, Christopher Wiebusch, Ulrich Willemsen</br>Comments: Submitted to Computing and Software for Big Science</br>Primary Category: cs.LG</br>All Categories: cs.LG, astro-ph.HE, astro-ph.IM, hep-ex, physics.data-an, J.2; I.2.6</br><p>In this paper, we present a new algorithm, MiniFool, that implements
+physics-inspired adversarial attacks for testing neural network-based
+classification tasks in particle and astroparticle physics. While we initially
+developed the algorithm for the search for astrophysical tau neutrinos with the
+IceCube Neutrino Observatory, we apply it to further data from other science
+domains, thus demonstrating its general applicability. Here, we apply the
+algorithm to the well-known MNIST data set and furthermore, to Open Data data
+from the CMS experiment at the Large Hadron Collider. The algorithm is based on
+minimizing a cost function that combines a $\chi^2$ based test-statistic with
+the deviation from the desired target score. The test statistic quantifies the
+probability of the perturbations applied to the data based on the experimental
+uncertainties. For our studied use cases, we find that the likelihood of a
+flipped classification differs for both the initially correctly and incorrectly
+classified events. When testing changes of the classifications as a function of
+an attack parameter that scales the experimental uncertainties, the robustness
+of the network decision can be quantified. Furthermore, this allows testing the
+robustness of the classification of unlabeled experimental data.</p></br><a href="http://arxiv.org/pdf/2510.27146v1"><h2>SERVIMON: AI-Driven Predictive Maintenance and Real-Time Monitoring for
   Astronomical Observatories</h2></a>Authors:  Emilio Mastriani, Alessandro Costa, Federico Incardona, Kevin Munari, Sebastiano Spinello</br>Comments: Accepted for publication in IAU Symposium 397: Exploring the Universe
   with Artificial Intelligence (UniversAI 2025), Cambridge University Press.
   Editors: C. Sterken, J. Hearnshaw & D. Valls-Gabaud</br>Primary Category: astro-ph.IM</br>All Categories: astro-ph.IM, cs.LG</br><p>Objective: ServiMon is designed to offer a scalable and intelligent pipeline
@@ -39,16 +89,18 @@ maintenance and real-time monitoring of astronomical infrastructures. By
 leveraging cloud and edge computing, it is adaptable to future large-scale
 experiments, optimizing both performance and cost. The combination of machine
 learning and big data analytics makes ServiMon a robust and flexible solution
-for modern and next-generation observational astronomy.</p></br><a href="http://arxiv.org/pdf/2510.26593v1"><h2>Hybrid Physical-Neural Simulator for Fast Cosmological Hydrodynamics</h2></a>Authors:  Arne Thomsen, Tilman Tröster, François Lanusse</br>Comments: Accepted to the NeurIPS 2025 Workshop on Machine Learning and the
-  Physical Sciences</br>Primary Category: astro-ph.CO</br>All Categories: astro-ph.CO, cs.LG</br><p>Cosmological field-level inference requires differentiable forward models
-that solve the challenging dynamics of gas and dark matter under hydrodynamics
-and gravity. We propose a hybrid approach where gravitational forces are
-computed using a differentiable particle-mesh solver, while the hydrodynamics
-are parametrized by a neural network that maps local quantities to an effective
-pressure field. We demonstrate that our method improves upon alternative
-approaches, such as an Enthalpy Gradient Descent baseline, both at the field
-and summary-statistic level. The approach is furthermore highly data efficient,
-with a single reference simulation of cosmological structure formation being
-sufficient to constrain the neural pressure model. This opens the door for
-future applications where the model is fit directly to observational data,
-rather than a training set of simulations.</p></br>
+for modern and next-generation observational astronomy.</p></br><a href="http://arxiv.org/pdf/2511.00834v1"><h2>Reconstruction of Black Hole Ringdown Signals with Data Gaps using a
+  Deep-Learning Framework</h2></a>Authors:  Jing-Qi Lai, Jia-Geng Jiao, Cai-Ying Shao, Jun-Xi Shi, Yu Tian</br>Comments: 15 pages, 12 figures. Code (research prototype) available at:
+  https://github.com/ljq2088/RingdownGapFilling/tree/master</br>Primary Category: gr-qc</br>All Categories: gr-qc, astro-ph.IM, physics.data-an</br><p>We introduce DenoiseGapFiller (DGF), a deep-learning framework specifically
+designed to reconstruct gravitational-wave ringdown signals corrupted by data
+gaps and instrumental noise. DGF employs a dual-branch encoder-decoder
+architecture, which is fused via mixing layers and Transformer-style blocks.
+Trained end-to-end on synthetic ringdown waveforms with gaps up to 20% of the
+segment length, DGF can achieve a mean waveform mismatch of 0.002. The residual
+amplitudes of the Time-domain shrink by roughly an order of magnitude and the
+power spectral density in the 0.01-1 Hz band is suppressed by 1-2 orders of
+magnitude, restoring the peak of quasi-normal mode(QNM) in the time-frequency
+representation around 0.01-0.1 Hz. The ability of the model to faithfully
+reconstruct the original signals, which implies milder penalties in the
+detection evidence and tighter credible regions for parameter estimation, lay a
+foundation for the following scientific work.</p></br>
